@@ -1,0 +1,165 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{p:dm}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=ef7ddc464b2dfbc8e84599d8098daaa9}{%
+           family={Canudas\bibnamedelimb de\bibnamedelima Wit},
+           familyi={C\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=399c0a3cad92c77a6ebb110e9301bd43}{%
+           family={Olsson},
+           familyi={O\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=79ce80819aa599b815695bd9859479ee}{%
+           family={Astrom},
+           familyi={A\bibinitperiod},
+           given={K.J.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b59e1be406abced8d1aad82dbff258ef}{%
+           family={Lischinsky},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{01886950931446d24b3a778b5e6c4594}
+      \strng{fullhash}{4551fc72f5d5514d3fd1b3660c196657}
+      \strng{fullhashraw}{4551fc72f5d5514d3fd1b3660c196657}
+      \strng{bibnamehash}{01886950931446d24b3a778b5e6c4594}
+      \strng{authorbibnamehash}{01886950931446d24b3a778b5e6c4594}
+      \strng{authornamehash}{01886950931446d24b3a778b5e6c4594}
+      \strng{authorfullhash}{4551fc72f5d5514d3fd1b3660c196657}
+      \strng{authorfullhashraw}{4551fc72f5d5514d3fd1b3660c196657}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{number}{3}
+      \field{title}{A new model for control of systems with friction}
+      \field{volume}{40}
+      \field{year}{1995}
+      \field{pages}{419\bibrangedash 425}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/9.376053
+      \endverb
+      \keyw{Control system synthesis;Friction;Hysteresis;Predictive models;Analytical models;Limit-cycles;Councils;Control design;Stability;Control systems}
+    \endentry
+    \entry{youtube:sscurve}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=84230d85f9f2ed78ea51fe853248c895}{%
+           family={Engineer},
+           familyi={E\bibinitperiod},
+           given={The\bibnamedelima Efficient},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{84230d85f9f2ed78ea51fe853248c895}
+      \strng{fullhash}{84230d85f9f2ed78ea51fe853248c895}
+      \strng{fullhashraw}{84230d85f9f2ed78ea51fe853248c895}
+      \strng{bibnamehash}{84230d85f9f2ed78ea51fe853248c895}
+      \strng{authorbibnamehash}{84230d85f9f2ed78ea51fe853248c895}
+      \strng{authornamehash}{84230d85f9f2ed78ea51fe853248c895}
+      \strng{authorfullhash}{84230d85f9f2ed78ea51fe853248c895}
+      \strng{authorfullhashraw}{84230d85f9f2ed78ea51fe853248c895}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to Stress and Strain}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=aQf6Q8t1FQE
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=aQf6Q8t1FQE
+      \endverb
+    \endentry
+    \entry{p:rvstlg}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b3d8f7d2670f41cc74f0a7a185b437e1}{%
+           family={Johanastrom},
+           familyi={J\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+        {{hash=54a8edacd83bab90debee31dc2ff7ba2}{%
+           family={Canudas-de-Wit},
+           familyi={C\bibinithyphendelim W\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd4cd2852a878dddd42063350a190d8e}
+      \strng{fullhash}{cd4cd2852a878dddd42063350a190d8e}
+      \strng{fullhashraw}{cd4cd2852a878dddd42063350a190d8e}
+      \strng{bibnamehash}{cd4cd2852a878dddd42063350a190d8e}
+      \strng{authorbibnamehash}{cd4cd2852a878dddd42063350a190d8e}
+      \strng{authornamehash}{cd4cd2852a878dddd42063350a190d8e}
+      \strng{authorfullhash}{cd4cd2852a878dddd42063350a190d8e}
+      \strng{authorfullhashraw}{cd4cd2852a878dddd42063350a190d8e}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Control Systems Magazine}
+      \field{number}{6}
+      \field{title}{Revisiting the LuGre friction model}
+      \field{volume}{28}
+      \field{year}{2008}
+      \field{pages}{101\bibrangedash 114}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/MCS.2008.929425
+      \endverb
+      \keyw{Friction;Force measurement;Aerodynamics;Motion control;Motion analysis;Area measurement;Mechanical factors;Velocity measurement;Ball bearings;Physics}
+    \endentry
+    \entry{youtube:sseq}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=8f6823abd383a341f0d78ef38829bbbb}{%
+           family={MATLAB},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f6823abd383a341f0d78ef38829bbbb}
+      \strng{fullhash}{8f6823abd383a341f0d78ef38829bbbb}
+      \strng{fullhashraw}{8f6823abd383a341f0d78ef38829bbbb}
+      \strng{bibnamehash}{8f6823abd383a341f0d78ef38829bbbb}
+      \strng{authorbibnamehash}{8f6823abd383a341f0d78ef38829bbbb}
+      \strng{authornamehash}{8f6823abd383a341f0d78ef38829bbbb}
+      \strng{authorfullhash}{8f6823abd383a341f0d78ef38829bbbb}
+      \strng{authorfullhashraw}{8f6823abd383a341f0d78ef38829bbbb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to State-Space Equations | State Space, Part 1}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=hpeKrMG-WP0
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=hpeKrMG-WP0
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
