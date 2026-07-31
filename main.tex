@@ -1,7 +1,10 @@
-% !Tex root = main.tex
+% !TeX root = main.tex
 % Preamble -------------
 \documentclass[12pt, a4]{article}
 \usepackage{comment}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{works_cited.bib}
+
 
 
 
@@ -18,9 +21,11 @@
     Friction is a topic that has intrigued people for millenia, and pioneered to this very day. Think honestly, what causes friction? Small microscopic asperities? How does perfectly smooth rubber still present friction? Or jagged ice is so slippery? Is water the issue? Then why can you tread on water? From scientists, control engineers, and frankly, scholars that experienced its’ effects in other forms, all trying to understand this confounding concept. Namely, slip-stick friction is the limit cycle of an objects’ continuous oscillation between slipping and sticking, such as seen in violins, door’s creakings, badly engineered anything. It is a topic fixated by engineers in trying to reduce, common solutions include adding grease, oil, etc. However, in the realm of competitive Minecraft, there exists many instances where the desirable trait of clicking fast can be accompanied by exploitation of slip stick atop the mouse. This is referred to in the community as “drag clicking”. 
 
     In this paper, we will attempt to find ways to increase the slip stick properties pertaining to drag clicking by modeling material properties of common methods using advanced friction models such as LuGre and Dahl
+
+   \pagebreak 
     \section{Background}
     \label{sec:background}
-    Our commonly conceived model of friction---the coulomb friction model---has several limitations. It suggests that upon motion the frictional force is linearly proportional to velocity of the opposite direction. This captures the essence of friction for moving objects, however, it lacks depth in capturing
+    Our commonly conceived model of friction---the coulomb friction model---has several limitations. It suggests that upon motion the frictional force is linearly proportional to velocity of the opposite direction. This captures the essence of friction for moving objects, however, it lacks depth in capturing the following:
 \begin{enumerate}
     \item The Stribeck Effect
     \item The Microscale pre-slip deformations
@@ -31,12 +36,13 @@
     To coherently account for all these, we must shift to dynamic models that uses state space equations.
 
 \subsection{State Space Equations}
-In state space equations, there exists "state variables" that capture internal states of the system. 
-State space equations define an internal derivative as a function of state variables, this gives us the rate of change at an instant, as we integrate it over progressively smaller discrete units of time it gives us a prediction of the current state (current position, force, etc.)
+In state space equations, there exists "state variables" that capture internal states of the system, when there is more than one, it is packaged into a vector matrix. State space equations define the derivative of state variable as a function of state variables, this gives us the rate of change at an instant, as we integrate it over small discrete units of time it gives us a prediction of the current state (current position, force, etc.). The predicted state variables are fed back into the derivative as linear equation constants to be then integrated again.\cite{youtube:sseq} However, looking at the relationship between variables in a state space equation can describe the stability of a system, which is particularly useful in stick--slip motion.
+% Maybe include equations for better understanding? wait, do they even care?
 
 \subsection{The Dahl Model}
 
-        
 
-        
+
+
+\printbibliography
 \end{document}
