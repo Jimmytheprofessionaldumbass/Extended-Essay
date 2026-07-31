@@ -1,10 +1,12 @@
 % !TeX root = main.tex
 % Preamble -------------
-\documentclass[12pt, a4]{article}
+\documentclass[12pt]{article}
 \usepackage{comment}
 \usepackage[backend=biber]{biblatex}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{cancel}
+\usepackage[a4paper, margin=2.5cm]{geometry}
 % \usepackage{wrapfig}
 
 \addbibresource{works cited.bib}
@@ -47,34 +49,69 @@ In state space equations, there exists "state variables" that capture internal s
 
 \pagebreak
 \subsection{The Dahl Model}
+While the standard textbook definition for friction stem from rigid body microscopic asperities, the Dahl Model instead visualizes two bodies making contact from elastic bristles scattered over the contacting surface\cite{p:dm}. Illustrated in figure \ref{fig:bristles}. 
+
 \begin{figure}[htbp]
     \center
     \includegraphics[width=0.75\textwidth]{bristles}
     \caption{Depiction of Dahl Model's Bristles \cite{p:dm}}
     \label{fig:bristles}
 \end{figure}
-While the standard textbook definition for friction stem from rigid body microscopic asperities, the Dahl Model instead visualizes two bodies making contact from elastic bristles scattered over the contacting surface\cite{p:dm}. Illustrated in figure \ref{fig:bristles}. Below beholds the Dahl's model:
+
+
+% Dahl Model Math -----------------------------------------------------------
+The Dahl model is defined as the following:
 \begin{equation}
-    F=F_{c}\left(1-e^{\frac{ \sigma_{0}|x| }{ F_{c} }}\right)\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)
+    F=F_{c}\left(1-e^{-\frac{ \sigma_{0}|x| }{ F_{c} }}\right)\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)
     \label{eq:dahlexp}
 \end{equation}
-The Dahl model's equation shares similar properties of an exponential function take of the stress-strain curve (depicted in figure \ref{fig:sscurve}), most notably, the point at which it shifts from an elastic spring,
+
+Where $F_{c}$ is the coulomb friction of the surface, x is the displacement from original position (this is primarily focused on the microscopic displacements), and $\sigma_{0}$ is the "stiffness" of microscopic bumps and affects the shift to maximum coulomb friction.
+
+To use this for state space equations we must find the derivative using chain rule:
+
+\begin{align}
+    \frac{\diff F}{\diff x} &= \cancel{-}\cancel{F_{c}}\cdot e^{-\frac{\sigma_{0}|x|}{F_{c}}}\cdot \cancel{-}\frac{\sigma_{0}}{\cancel{F_{c}}}\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)\mathrm{sgn}\left(x\right) \\
+                            &= \sigma_{0}e^{-\frac{\sigma_{0}|x|}{F_{c}}}\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)\mathrm{sgn}\left(x\right)
+\end{align}
+
+\noindent
+and to put the actual current force state back into this derivative function (since state space equations depend on previous states), we rearrange eq (1) to isolate $e^{-\frac{\sigma_{0}|x|}{F_{c}}}$ like such:
+
+\begin{align}
+    F&=F_{c}\left(1-e^{-\frac{ \sigma_{0}|x| }{ F_{c} }}\right)\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right) \\
+    \frac{F}{F_{c}} \mathrm{sgn}\left(\frac{\diff x}{\diff t}\right) &= 1-e^{-\frac{\sigma_{0}|x|}{F_{c}}} \\
+    e^{-\frac{\sigma_{0}|x|}{F_{c}}} &= 1 - \frac{F}{F_{c}} \mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)
+\end{align}
+and putting it back in the differential equation we get:
+
+\begin{align}
+    \frac{\diff F}{\diff x} &= \sigma_{0}\left(1-\frac{F}{F_{c}}\right)\cancel{\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)^{2}}\mathrm{sgn}\left(x\right) \\
+    &=\sigma_{0}\left(1-\frac{F}{F_{c}}\right)\mathrm{sgn}\left(x\right)
+\end{align}
+
+
+
+
+The Dahl model's equation shares similar properties of an exponential function take of the stress-strain curve (depicted in figure \ref{fig:sscurve}), most notably, the point at which it shifts from an elastic spring to continual bristle movement
+
 \begin{figure}[htbp]
     \center
     \includegraphics[width=0.7\textwidth]{stress strain curve}
     \caption{An annotation of a generic stress-strain curve\cite{youtube:sscurve}}
     \label{fig:sscurve}
 \end{figure}
+\begin{enumerate}
+    \item Case 1: Current force = 0
+        \begin{equation}
+            \frac{\diff F}{\diff x} = 
+        \end{equation}
+\end{enumerate}
+
+
 The labeled "elastic region" could be viewed as the predisplacement present in static friction before reaching the "plastic region" that is when it reaches coulomb friction.
 
 \pagebreak
-
-
-
-The equation of the Dahl model is:
-
-
-
 
 \pagebreak
 \printbibliography
