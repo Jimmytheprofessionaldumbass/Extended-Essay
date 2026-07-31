@@ -1,7 +1,17 @@
+% !Tex root = main.tex
+% Preamble -------------
 \documentclass[12pt, a4]{article}
-\title{How can slip stick friction be maximized between finger and computer mice}
+\usepackage{comment}
 
-\begin{Document}
+
+
+% Title -----------------
+\title{How can slip stick friction be maximized between finger and computer mice}
+\author{Jimmy Zeng}
+\date{\today}
+
+\begin{document}
+\maketitle
                 
     \section{Introduction}
     \label{sec:introduction}
@@ -9,7 +19,7 @@
 
     In this paper, we will attempt to find ways to increase the slip stick properties pertaining to drag clicking by modeling material properties of common methods using advanced friction models such as LuGre and Dahl
     \section{Background}
-    
+    \label{sec:background}
     Our commonly conceived model of friction---the coulomb friction model---has several limitations. It suggests that upon motion the frictional force is linearly proportional to velocity of the opposite direction. This captures the essence of friction for moving objects, however, it lacks depth in capturing
 \begin{enumerate}
     \item The Stribeck Effect
@@ -21,9 +31,12 @@
     To coherently account for all these, we must shift to dynamic models that uses state space equations.
 
 \subsection{State Space Equations}
-    \subsection{The Dahl Model}
+In state space equations, there exists "state variables" that capture internal states of the system. 
+State space equations define an internal derivative as a function of state variables, this gives us the rate of change at an instant, as we integrate it over progressively smaller discrete units of time it gives us a prediction of the current state (current position, force, etc.)
+
+\subsection{The Dahl Model}
 
         
 
         
-\end{Document}
+\end{document}

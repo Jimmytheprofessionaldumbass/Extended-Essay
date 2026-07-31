@@ -1,0 +1,24 @@
+# Fdb version 4
+["pdflatex"] 1785472297.39746 "main.tex" "main.pdf" "main" 1785472297.62099 0
+  "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls" 1780258940 20144 e6010938fb17dfbae90a243ad7cf351d ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/base/size12.clo" 1780258940 8449 664757d1408d8170a2006aafc5658e1b ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/comment/comment.sty" 1472166125 10197 204f75d5d8d88aa345a8c402e879e63b ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1774899586 30909 7dedb28cb21a1e79c47a35a35ae3c507 ""
+  "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1782667392 43815 bcd8835056a2dfac260166a1c9541261 ""
+  "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1784093434 5573038 ad3e0d8c63dbec7957113a2386d66888 ""
+  "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1784093553 3656514 889b8b44a344219536a46a4152832c47 ""
+  "/usr/local/texlive/2026/texmf.cnf" 1784093428.67125 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "main.aux" 1785472297.60637 551 3ad4da123d020c84823d954ec4d9912d "pdflatex"
+  "main.tex" 1785472295.52032 2745 c550ebaafc830eeac4b942af62772b88 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)
