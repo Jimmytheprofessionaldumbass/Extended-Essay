@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1785479532.169 "build/main.bcf" "build/main.bbl" "build/main" 1785519581.69197 0
-  "build/main.bcf" 1785519581.65214 108870 4e616d3a8e17886944e6001142da306c "pdflatex"
-  "works cited.bib" 1785479517.64605 1282 ad465343e65467f6a46a6b05df85e3d0 ""
+["biber build/main"] 1785523868.52932 "build/main.bcf" "build/main.bbl" "build/main" 1785527145.4535 0
+  "build/main.bcf" 1785527145.41149 108999 301a374abdee6344cf268addf57e05b1 "pdflatex"
+  "works cited.bib" 1785523784.59132 1547 bc2096ab883cc9622738a00e062e375a ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1785519580.57202 "main.tex" "build/main.pdf" "main" 1785519581.69218 0
+["pdflatex"] 1785527144.54212 "main.tex" "build/main.pdf" "main" 1785527145.45372 0
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -66,6 +66,9 @@
   "/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx" 1752177141 4676 d3f90f6377ee43f043262aa587deb6de ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx" 1711143581 40021 daa5a82ed0967f3ac4b77cb8384cac55 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/cancel/cancel.sty" 1388445839 7592 dd751af313a16a0308545d5bfd7aaaa2 ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty" 1696191071 72619 ee90b6612147680fd73c3b1406a74245 ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty" 1690576852 12494 0c0cdb824278a4d51cefeb2e79901315 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/comment/comment.sty" 1472166125 10197 204f75d5d8d88aa345a8c402e879e63b ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1759437024 46885 8953c67ffba03252c6090aa19568b8ba ""
@@ -85,16 +88,18 @@
   "/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def" 1284153563 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty" 1284153563 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1137111090 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1782667392 43815 bcd8835056a2dfac260166a1c9541261 ""
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1784093434 5573038 ad3e0d8c63dbec7957113a2386d66888 ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1784093553 3656514 889b8b44a344219536a46a4152832c47 ""
   "/usr/local/texlive/2026/texmf.cnf" 1784093428.67125 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "build/main.aux" 1785519581.65164 1766 1d97dcfc1df330e1249470d784360c60 "pdflatex"
-  "build/main.bbl" 1785479532.89714 6617 325f8133bff9114e555b4bd307a1805d "biber build/main"
-  "build/main.run.xml" 1785519581.65323 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
+  "build/main.aux" 1785527145.41013 2725 ff1f2b4325237ebbe11693495e404bcf "pdflatex"
+  "build/main.bbl" 1785523869.23361 6617 325f8133bff9114e555b4bd307a1805d "biber build/main"
+  "build/main.run.xml" 1785527145.4125 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
   "images/bristles.png" 1785475640.9927 830719 c5c29b2da4b809fd9a902a86766863e5 ""
-  "images/stress strain curve.png" 1785478260.92226 3548730 0bd3ec2fd0a08ad11521d12dd7451f2c ""
-  "main.tex" 1785519578.46685 6639 2f524a2116d5ce596b4d7291a5ed5378 ""
+  "images/coulomb graph.png" 1785524297.77408 10603 77e2d17f90062f49bfb5577e0b315801 ""
+  "images/sscurve.png" 1785521285.83478 19432685 f8e65a923308c329f2d40f647cc0b93f ""
+  "main.tex" 1785527143.35711 9864 631f8216631d5300cc319bc8ac53a325 ""
   (generated)
   "build/main.aux"
   "build/main.bcf"

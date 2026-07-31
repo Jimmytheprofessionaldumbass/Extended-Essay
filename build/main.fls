@@ -93,10 +93,18 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cancel/cancel.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/cancel/cancel.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT build/main.aux
 INPUT build/main.aux
 INPUT build/main.aux
@@ -122,8 +130,13 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./images/coulomb graph.png
+INPUT ./images/coulomb graph.png
+INPUT ./images/coulomb graph.png
 OUTPUT build/main.pdf
+INPUT ./images/coulomb graph.png
 INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./images/bristles.png
 INPUT ./images/bristles.png
@@ -140,10 +153,10 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT ./images/stress strain curve.png
-INPUT ./images/stress strain curve.png
-INPUT ./images/stress strain curve.png
-INPUT ./images/stress strain curve.png
+INPUT ./images/sscurve.png
+INPUT ./images/sscurve.png
+INPUT ./images/sscurve.png
+INPUT ./images/sscurve.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
