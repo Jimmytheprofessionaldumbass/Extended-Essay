@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  31 JUL 2026 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  3 AUG 2026 09:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -517,12 +517,12 @@ File: images/sscurve.png Graphic file (type png)
 <use images/sscurve.png>
 Package pdftex.def Info: images/sscurve.png  used on input line 142.
 (pdftex.def)             Requested size: 318.66948pt x 242.21681pt.
- [4 <./images/sscurve.png>]
-Overfull \hbox (3.49924pt too wide) in paragraph at lines 182--182
+ [4 <./images/sscurve.png>] [5]
+Overfull \hbox (3.49924pt too wide) in paragraph at lines 190--190
 []\OT1/cmr/m/n/12 Karl Jo-hanas-trom and Car-los Canudas-de-Wit. ``Re-vis-it-ing the Lu-Gre fric-tion model''.
  []
 
-[5] (build/main.aux)
+[6] (build/main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
@@ -540,10 +540,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  67i,19n,77p,1034b,1500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on build/main.pdf (5 pages, 1284520 bytes).
+Output written on build/main.pdf (6 pages, 1286229 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

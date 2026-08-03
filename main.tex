@@ -29,7 +29,7 @@
     \label{sec:introduction}
     Friction is a topic that has intrigued people for millenia, and pioneered to this very day. Think honestly, what causes friction? Small microscopic asperities? How does perfectly smooth rubber still present friction? Or jagged ice is so slippery? Is water the issue? Then why can you tread on water? From scientists, control engineers, and frankly, scholars that experienced its’ effects in other forms, all trying to understand this confounding concept. Namely, slip-stick friction is the limit cycle of an objects’ continuous oscillation between slipping and sticking, such as seen in violins, door’s creakings, badly engineered anything. It is a topic fixated by engineers in trying to reduce, common solutions include adding grease, oil, etc. However, in the realm of competitive Minecraft, there exists many instances where the desirable trait of clicking fast can be accompanied by exploitation of slip stick atop the mouse. This is referred to in the community as “drag clicking”. 
 
-    In this paper, we will attempt to find ways to increase the slip stick properties pertaining to drag clicking by modeling material properties of common methods using advanced friction models such as LuGre and Dahl
+    In this paper, we will attempt to find ways to test the slip stick properties pertaining to drag clicking by modeling material properties of common methods using advanced friction models such as LuGre and Dahl friction models.
 \section{Background}
 \label{sec:background}
 
@@ -172,6 +172,14 @@ Differentiating to find the state equation:
 
 
 The labeled "elastic region" could be viewed as the predisplacement present in static friction before reaching the "plastic region" that is when it reaches coulomb friction.
+
+
+
+\subsection{Drag clicking specific methods}
+There exists several known methods in the community to increase the accessibility of drag clicking on a mouse. With any youtube search you will find it populated with applying "tape" to your mouse, along with sharpie markers applied to that, then the mention of keeping your hands dry. In private I have discovered several new methods to increase friction, along with additive methods, I have discovered subtractive methods. Additive methods include rubbing crushed cello rosin dust onto the surface of the mouse with your finger, it was meant toadjunct slip stick properties of stringed instruments, though the effect is universal. Subtractive include rubbing the surface of your mouse with the bottom of your mousepad firmly, or with the leaf of a well hydrated plant. We will measure the rate at which static friction equalizes to coulomb friction with respect to time 
+
+\section{Method}
+The constants in the lugre friction model ($\sigma_{0}$, $\sigma_{1}$, etc), will be found by measuring steady friction force at various velocities \cite{p:rvstlg}. This will be done with a calibrated force meter
 
 
 
