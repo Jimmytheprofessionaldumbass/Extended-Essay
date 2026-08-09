@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1785846242.31644 "build/main.bcf" "build/main.bbl" "build/main" 1786239241.20512 0
-  "build/main.bcf" 1786239241.16265 109062 7bb084c6d9b8a5afc61f0e0282f99a00 "pdflatex"
+["biber build/main"] 1785846242.31644 "build/main.bcf" "build/main.bbl" "build/main" 1785852597.47131 0
+  "build/main.bcf" 1785852597.41757 109125 d67ae01f26f33ed87ba50d0225bb675c "pdflatex"
   "works cited.bib" 1785523784.59132 1547 bc2096ab883cc9622738a00e062e375a ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1786239240.2772 "main.tex" "build/main.pdf" "main" 1786239241.20533 2
+["pdflatex"] 1785852596.46066 "main.tex" "build/main.pdf" "main" 1785852597.47157 2
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -158,15 +158,13 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1784093434 5573038 ad3e0d8c63dbec7957113a2386d66888 ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1784093553 3656514 889b8b44a344219536a46a4152832c47 ""
   "/usr/local/texlive/2026/texmf.cnf" 1784093428.67125 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "build/main.aux" 1786239241.16175 3209 5b8f892984edf64fd60068d08f23ee76 "pdflatex"
+  "build/main.aux" 1785852597.41657 3366 4f93bbf1c3c9d19d9a5398539c506454 "pdflatex"
   "build/main.bbl" 1785846243.0379 6617 325f8133bff9114e555b4bd307a1805d "biber build/main"
-  "build/main.run.xml" 1786239241.1634 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
-  "build/setup" 0 -1 0 ""
+  "build/main.run.xml" 1785852597.41859 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
   "images/bristles.png" 1785475640.9927 830719 c5c29b2da4b809fd9a902a86766863e5 ""
   "images/coulomb graph.png" 1785524297.77408 10603 77e2d17f90062f49bfb5577e0b315801 ""
   "images/sscurve.png" 1785521285.83478 19432685 f8e65a923308c329f2d40f647cc0b93f ""
-  "main.tex" 1786239237.96263 11346 67ada304a838705d8dd9d71e4f241aaa ""
-  "setup" 0 -1 0 ""
+  "main.tex" 1785852593.36155 13437 1832e5fb63b44e3eda63ea8b8b61141a ""
   (generated)
   "build/main.aux"
   "build/main.bcf"

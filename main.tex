@@ -9,6 +9,7 @@
 \usepackage{subcaption}
 \usepackage[a4paper, margin=2.5cm]{geometry}
 \usepackage{wrapfig}
+\usepackage{tikz}
 
 \addbibresource{works cited.bib}
 \graphicspath{{images/}}
@@ -165,31 +166,80 @@ similarly, in Hooke's law presented in the Physics formula booklet:
 \begin{equation}
     F = kx
 \end{equation}
-Differentiating to find the state equation:
-% \begin{align}
-%
-% \end{align}
+Differentiating $z=\frac{1}{\sigma_{0}}\cdot F$ to find the state equation:
+\begin{align}
+    \frac{\diff z}{\diff t} &= \frac{1}{\sigma_{0}}\cdot \frac{\diff F}{\diff x}\cdot \frac{\diff x}{\diff t} \\
+                            &= \frac{1}{\sigma_{0}}\cdot \frac{\diff F}{\diff x}\cdot v \\
+\end{align}
+and with $\frac{\diff F}{\diff x} = \sigma_{0}\left(1-\frac{F}{F_{c}}\mathrm{sgn}\left(v\right)\right)$
+
+\begin{align}
+                            &= \frac{1}{\cancel{\sigma_{0}}}\cdot \cancel{\sigma_{0}}\left(1-\frac{F}{F_{c}}\mathrm{sgn}\left(v\right)\right)v \\
+                            &= \left(1-\frac{F}{F_{c}}\mathrm{sgn}\left(v\right)\right)v \\
+\end{align}
+now with $F=\sigma_{0}z$ and $sgn(v)v=|v|$ we arrive at the definitive Dahl's model
+\begin{align}
+                            &= \left(1-\frac{\sigma_{0}z}{F_{c}}\mathrm{sgn}\left(v\right)\right)v \\
+                        \frac{\diff z}{\diff t} &= v-\frac{\sigma_{0}z}{F_{c}}|v|
+\end{align}\cite{p:rvstlg}
 
 
-The labeled "elastic region" could be viewed as the predisplacement present in static friction before reaching the "plastic region" that is when it reaches coulomb friction.
+% The labeled "elastic region" could be viewed as the predisplacement present in static friction before reaching the "plastic region" that is when it reaches coulomb friction.
 
+\subsection{Lugre Model}
+The Lugre model takes in consideration that coulomb friction is not constant but rather dependent of velocity, thereby replacing it with $g(v)=F_{c}+\left(F_{s}-F_{c}\right)e^{-|\frac{v}{v_{s}}|^{\alpha}}$ that considers the rate of change from $F_{s}$ to $F_{c}$ to be non-instantaneous as shown in figure \ref{fig:g(v)}
+\begin{figure}[htbp]
+    \center
+    \begin{tikzpicture}[scale=1.2]
+
+        % axes
+        \draw[->, thick] (0,0) -- (6.5,0);
+        \draw[->, thick] (3,0) -- (3,4.2);
+
+        % labels
+        \node at (6.1,0.65) {$v$};
+        \node at (3.65,4.0) {$g(v)$};
+
+        % LuGre Stribeck curve
+        \draw[very thick]
+        (0.3,2.05)
+        .. controls (1.5,2.05) and (2.2,2.05) ..
+        (2.55,2.15)
+        .. controls (2.85,2.25) and (2.95,2.55) ..
+        (3,3.05)
+        .. controls (3.05,2.55) and (3.15,2.25) ..
+        (3.45,2.15)
+        .. controls (3.9,2.05) and (5.2,2.05) ..
+        (6.2,2.05);
+        \draw [very thick,dashed,blue] (0,2.05) -- (6.5,2.05);
+        \draw [very thick,dashed,red] (0,3) -- (6.5,3);
+    
+
+        % force labels
+        \node[red,right] at (2.9,3.25) {$F_s$};
+        \node[blue,right] at (2.9,1.75) {$F_c$};
+
+        % figure label
+        \node at (3,-0.45) {$(a)$};
+
+    \end{tikzpicture}
+    \caption{Graph of $g(v)$ with relative $F_{s}$ and $F_{c}$ coordinates}
+    \label{fig:g(v)}
+\end{figure}
+
+to create the following differential equation:
+\begin{equation}
+
+\end{equation}
 
 
 \subsection{Drag clicking specific methods}
 There exists several known methods in the community to increase the accessibility of drag clicking on a mouse. With any youtube search you will find it populated with applying "tape" to your mouse, along with sharpie markers applied to that, then the mention of keeping your hands dry. In private I have discovered several new methods to increase friction, along with additive methods, I have discovered subtractive methods. Additive methods include rubbing crushed cello rosin dust onto the surface of the mouse with your finger, it was meant toadjunct slip stick properties of stringed instruments, though the effect is universal. Subtractive include rubbing the surface of your mouse with the bottom of your mousepad firmly, or with the leaf of a well hydrated plant. We will measure the rate at which static friction equalizes to coulomb friction with respect to time 
 
 \section{Method}
-The static and kinetic friction will be found by measuring steady friction force at various velocities \cite{p:rvstlg}. The following diagram shows the setup:
+The constants in the lugre friction model ($\sigma_{0}$, $\sigma_{1}$, etc), will be found by measuring steady friction force at various velocities \cite{p:rvstlg}. This will be done with a calibrated force meter
 
 
-\begin{figure}[htbp]
-    \center
-    \includegraphics[width=0.7\textwidth]{setup}
-    \caption{The experimental setup for measuring Coulomb and static friction}
-    \label{fig:setup}
-\end{figure}
-
-A modified Vex motor with screw gear mechanism will apply horizontal force slowly to the finger. A pulley and a string will be used to nullify the weight of the strain gauge 
 
 \pagebreak
 
