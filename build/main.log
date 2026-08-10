@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  4 AUG 2026 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  9 AUG 2026 02:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -694,115 +694,62 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(build/main.toc)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
 <images/coulomb graph.png, id=4, 693.59125pt x 549.05125pt>
 File: images/coulomb graph.png Graphic file (type png)
 <use images/coulomb graph.png>
-Package pdftex.def Info: images/coulomb graph.png  used on input line 39.
+Package pdftex.def Info: images/coulomb graph.png  used on input line 42.
 (pdftex.def)             Requested size: 172.99498pt x 136.9441pt.
-[1
+ [1
 
-{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/coulomb graph.png>]
-<images/bristles.png, id=13, 559.08875pt x 373.395pt>
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/coulomb graph.png>]
+<images/bristles.png, id=16, 559.08875pt x 373.395pt>
 File: images/bristles.png Graphic file (type png)
 <use images/bristles.png>
-Package pdftex.def Info: images/bristles.png  used on input line 99.
+Package pdftex.def Info: images/bristles.png  used on input line 101.
 (pdftex.def)             Requested size: 341.43307pt x 228.0384pt.
- [2] [3 <./images/bristles.png>]
-<images/sscurve.png, id=32, 608.5134pt x 462.528pt>
+ [3 <./images/bristles.png>]
+<images/sscurve.png, id=31, 608.5134pt x 462.528pt>
 File: images/sscurve.png Graphic file (type png)
 <use images/sscurve.png>
-Package pdftex.def Info: images/sscurve.png  used on input line 143.
+Package pdftex.def Info: images/sscurve.png  used on input line 145.
 (pdftex.def)             Requested size: 318.66948pt x 242.21681pt.
- [4 <./images/sscurve.png>]
-./main.tex:232: Missing $ inserted.
-<inserted text> 
-                $
-l.232 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:232: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.232 
-      
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-
-./main.tex:233: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.233 \end{equation}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./main.tex:233: You can't use `\eqno' in vertical mode.
-\veqno ->\@kernel@eqno 
-                       \aftergroup \ignorespaces 
-l.233 \end{equation}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./main.tex:233: Missing $ inserted.
-<inserted text> 
-                $
-l.233 \end{equation}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./main.tex:233: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.233 \end{equation}
-                    
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[5] [6]
-Overfull \hbox (3.49924pt too wide) in paragraph at lines 248--248
+ [4 <./images/sscurve.png>] [5]
+<images/setup.png, id=40, 862.22125pt x 569.12625pt>
+File: images/setup.png Graphic file (type png)
+<use images/setup.png>
+Package pdftex.def Info: images/setup.png  used on input line 255.
+(pdftex.def)             Requested size: 318.66948pt x 210.33894pt.
+ [6 <./images/setup.png>] [7]
+Overfull \hbox (3.49924pt too wide) in paragraph at lines 289--289
 []\OT1/cmr/m/n/12 Karl Jo-hanas-trom and Car-los Canudas-de-Wit. ``Re-vis-it-ing the Lu-Gre fric-tion model''.
  []
 
-[7] (build/main.aux)
+[8] (build/main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22951 strings out of 467168
- 460463 string characters out of 5409468
- 1280065 words of memory out of 5000000
- 51905 multiletter control sequences out of 15000+600000
+ 22970 strings out of 467168
+ 460801 string characters out of 5409468
+ 1282086 words of memory out of 5000000
+ 51921 multiletter control sequences out of 15000+600000
  633765 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,104p,1034b,1503s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on build/main.pdf (7 pages, 1293545 bytes).
+Output written on build/main.pdf (8 pages, 1332176 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

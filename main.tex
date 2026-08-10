@@ -26,6 +26,9 @@
 \begin{document}
 \maketitle
                 
+\tableofcontents
+
+
     \section{Introduction}
     \label{sec:introduction}
     Friction is a topic that has intrigued people for millenia, and pioneered to this very day. Think honestly, what causes friction? Small microscopic asperities? How does perfectly smooth rubber still present friction? Or jagged ice is so slippery? Is water the issue? Then why can you tread on water? From scientists, control engineers, and frankly, scholars that experienced its’ effects in other forms, all trying to understand this confounding concept. Namely, slip-stick friction is the limit cycle of an objects’ continuous oscillation between slipping and sticking, such as seen in violins, door’s creakings, badly engineered anything. It is a topic fixated by engineers in trying to reduce, common solutions include adding grease, oil, etc. However, in the realm of competitive Minecraft, there exists many instances where the desirable trait of clicking fast can be accompanied by exploitation of slip stick atop the mouse. This is referred to in the community as “drag clicking”. 
@@ -42,7 +45,6 @@
 \end{wrapfigure}
 
     Our commonly conceived model of friction---the coulomb friction model---has several limitations. It suggests that upon motion the frictional force is linearly proportional to the normal force and of the opposite direction of the velocity \cite{p:rvstlg}. illustrated in figure \ref{fig:coulombgraph}. This is perceived as due to microscopic asperities interlocking with one another. This, for instance explains the independence of apparent surface area and dependence on normal force (i.e. the normal force pushes more asperities in contact, despite small appearant contact area, true microscopic contact area is much larger due to the increased force) However, friction still has much greater depth covering phenomena such as:
-    \pagebreak
 \begin{enumerate}
     \item The Stribeck Effect
     \item The Microscale pre-slip deformations
@@ -228,18 +230,53 @@ The Lugre model takes in consideration that coulomb friction is not constant but
 \end{figure}
 
 to create the following differential equation:
-\begin{equation}
+% \begin{equation}
+%
+% \end{equation}
 
-\end{equation}
 
+
+\section{Experiment}
 
 \subsection{Drag clicking specific methods}
 There exists several known methods in the community to increase the accessibility of drag clicking on a mouse. With any youtube search you will find it populated with applying "tape" to your mouse, along with sharpie markers applied to that, then the mention of keeping your hands dry. In private I have discovered several new methods to increase friction, along with additive methods, I have discovered subtractive methods. Additive methods include rubbing crushed cello rosin dust onto the surface of the mouse with your finger, it was meant toadjunct slip stick properties of stringed instruments, though the effect is universal. Subtractive include rubbing the surface of your mouse with the bottom of your mousepad firmly, or with the leaf of a well hydrated plant. We will measure the rate at which static friction equalizes to coulomb friction with respect to time 
 
-\section{Method}
-The constants in the lugre friction model ($\sigma_{0}$, $\sigma_{1}$, etc), will be found by measuring steady friction force at various velocities \cite{p:rvstlg}. This will be done with a calibrated force meter
+\subsection{Research Hypothesis and Variables}
+    The difference between Coulomb friction and static friction changes depending on material surface. This investigation aims to determine how material surface affects the difference between coulomb and static coefficient of friction.
+    It is hypothesized that Cello rosin will have the largest change due to its sticky nature, and clear PC plastic is expected with the least coefficient of friction as the surface is factory new surface polished
+    The independent variables are clear pc, cello rosin, and sharpie while the independent variable is the difference between static and coulomb coefficient of friction.
+
+\subsection{Method}
+    
+The static and kinetic friction will be found by measuring steady friction force at various velocities \cite{p:rvstlg}. The following diagram shows the setup:
 
 
+\begin{figure}[htbp]
+    \center
+    \includegraphics[width=0.7\textwidth]{images/setup}
+    \caption{The experimental setup for measuring Coulomb and static friction}
+    \label{fig:setup}
+\end{figure}
+
+A finger sits on a scale while taped to a string horizontally, which passes through a pulley upwards connecting to force gauge with a force exerted by a motor (Vex V5 Smart Motor 11W). The reason it is upwards is because if it were downwards, the weight of the force gauge would inherently exert a force due to gravity despite no applied force from the motor pulling it down and still displaying zero.
+
+The experimental procedure upon procuring this setup is:
+\begin{enumerate}
+    \item Clean the surface with alcolhol, or reapply rosin, sharpie will not be reapplied upon initial application
+    \item Clean the finger with alcolhol, or reapply rosin, again sharpie is neglected
+    \item Tare the scale and while at null force, tare the force gauge
+    \item Insert the string into the pulley
+    \item Place finger onto the scale
+    \item While recording slow motion, ensure visibility:
+    \begin{enumerate}
+        \item Finger state (slip/stick)
+        \item Force gauge value
+        \item Scale value
+    \end{enumerate}
+    \item Start the motor
+    \item repeat steps 1-8 3 trials
+    \item repeat for different materials
+\end{enumerate}
 
 \pagebreak
 

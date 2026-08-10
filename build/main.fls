@@ -234,18 +234,10 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./images/coulomb graph.png
-INPUT ./images/coulomb graph.png
-INPUT ./images/coulomb graph.png
-OUTPUT build/main.pdf
-INPUT ./images/coulomb graph.png
-INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT build/main.toc
+INPUT build/main.toc
+INPUT build/main.toc
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./images/bristles.png
-INPUT ./images/bristles.png
-INPUT ./images/bristles.png
-INPUT ./images/bristles.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -257,10 +249,26 @@ INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+OUTPUT build/main.toc
+INPUT ./images/coulomb graph.png
+INPUT ./images/coulomb graph.png
+INPUT ./images/coulomb graph.png
+OUTPUT build/main.pdf
+INPUT ./images/coulomb graph.png
+INPUT /usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./images/bristles.png
+INPUT ./images/bristles.png
+INPUT ./images/bristles.png
+INPUT ./images/bristles.png
 INPUT ./images/sscurve.png
 INPUT ./images/sscurve.png
 INPUT ./images/sscurve.png
 INPUT ./images/sscurve.png
+INPUT ./images/setup.png
+INPUT ./images/setup.png
+INPUT ./images/setup.png
+INPUT ./images/setup.png
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm

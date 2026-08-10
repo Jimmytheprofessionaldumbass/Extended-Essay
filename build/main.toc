@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {2}Background}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Friction Phenomena}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Viscous Friction}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Static Friction}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}The Stribeck Effect}{2}{}%
+\contentsline {subsubsection}{\numberline {2.1.4}Rising Static friction}{2}{}%
+\contentsline {subsection}{\numberline {2.2}State Space Equations}{3}{}%
+\contentsline {subsection}{\numberline {2.3}The Dahl Model}{3}{}%
+\contentsline {subsection}{\numberline {2.4}Lugre Model}{5}{}%
+\contentsline {subsection}{\numberline {2.5}Drag clicking specific methods}{5}{}%
+\contentsline {section}{\numberline {3}Experiment}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Research Hypothesis and Variables}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Method}{6}{}%
+\contentsline {subsection}{\numberline {3.3}Research Hypothesis and Variables}{7}{}%

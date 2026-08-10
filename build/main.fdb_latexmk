@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1785846242.31644 "build/main.bcf" "build/main.bbl" "build/main" 1785852597.47131 0
-  "build/main.bcf" 1785852597.41757 109125 d67ae01f26f33ed87ba50d0225bb675c "pdflatex"
+["biber build/main"] 1785846242.31644 "build/main.bcf" "build/main.bbl" "build/main" 1786243851.56062 0
+  "build/main.bcf" 1786243851.51033 109125 d67ae01f26f33ed87ba50d0225bb675c "pdflatex"
   "works cited.bib" 1785523784.59132 1547 bc2096ab883cc9622738a00e062e375a ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1785852596.46066 "main.tex" "build/main.pdf" "main" 1785852597.47157 2
+["pdflatex"] 1786243850.50598 "main.tex" "build/main.pdf" "main" 1786243851.56085 0
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -158,17 +158,20 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1784093434 5573038 ad3e0d8c63dbec7957113a2386d66888 ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1784093553 3656514 889b8b44a344219536a46a4152832c47 ""
   "/usr/local/texlive/2026/texmf.cnf" 1784093428.67125 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "build/main.aux" 1785852597.41657 3366 4f93bbf1c3c9d19d9a5398539c506454 "pdflatex"
+  "build/main.aux" 1786243851.5096 3931 2262908cd11dc54957e42b57f746ef0c "pdflatex"
   "build/main.bbl" 1785846243.0379 6617 325f8133bff9114e555b4bd307a1805d "biber build/main"
-  "build/main.run.xml" 1785852597.41859 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
+  "build/main.run.xml" 1786243851.51142 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
+  "build/main.toc" 1786243851.51142 1055 d7d152fa850ca4bf6bef1bb421c39001 "pdflatex"
   "images/bristles.png" 1785475640.9927 830719 c5c29b2da4b809fd9a902a86766863e5 ""
   "images/coulomb graph.png" 1785524297.77408 10603 77e2d17f90062f49bfb5577e0b315801 ""
+  "images/setup.png" 1786239702.84818 68612 ebe8875706072ba093372c20b110e2c3 ""
   "images/sscurve.png" 1785521285.83478 19432685 f8e65a923308c329f2d40f647cc0b93f ""
-  "main.tex" 1785852593.36155 13437 1832e5fb63b44e3eda63ea8b8b61141a ""
+  "main.tex" 1786243847.63615 15767 5e41a904fffae6cb652fc3b85da77f6d ""
   (generated)
   "build/main.aux"
   "build/main.bcf"
   "build/main.log"
   "build/main.pdf"
   "build/main.run.xml"
+  "build/main.toc"
   (rewritten before read)
