@@ -30,7 +30,7 @@
 
 
     \section{Introduction}
-    \label{sec:introduction}
+    \label{sec:introduction} %
     Friction is a topic that has intrigued people for millenia, and pioneered to this very day. Think honestly, what causes friction? Small microscopic asperities? How does perfectly smooth rubber still present friction? Or jagged ice is so slippery? Is water the issue? Then why can you tread on water? From scientists, control engineers, and frankly, scholars that experienced its’ effects in other forms, all trying to understand this confounding concept. Namely, slip-stick friction is the limit cycle of an objects’ continuous oscillation between slipping and sticking, such as seen in violins, door’s creakings, badly engineered anything. It is a topic fixated by engineers in trying to reduce, common solutions include adding grease, oil, etc. However, in the realm of competitive Minecraft, there exists many instances where the desirable trait of clicking fast can be accompanied by exploitation of slip stick atop the mouse. This is referred to in the community as “drag clicking”. 
 
     In this paper, we will attempt to find ways to test the slip stick properties pertaining to drag clicking by modeling material properties of common methods using advanced friction models such as LuGre and Dahl friction models.
@@ -72,7 +72,7 @@
 %     \end{subfigure}
 % \end{figure}
 
-\subsubsection{Viscous Friction}
+\subsubsection{Viscous Friction} % Very good organizatiion of subpoints 
 Viscous friction introduces the role of velocity in that sliding friction increases with velocity. 
 Though exact instantaneous velocity cannot be provided via discrete data points, a treadmill setup could mitigate this with a constant velocity upon contact
 
@@ -92,8 +92,9 @@ Refers to the increase in static friction as a result of time. Described as the 
 To coherently account for behaviour involving state changes, we must shift to dynamic models that uses state space equations. Most namely, the Dahl Model and LuGre Model
 In state space equations, there exists "state variables" that capture internal states of the system, when there is more than one, it is packaged into a vector matrix. State space equations define the derivative of state variable as a function of state variables, this gives us the rate of change at an instant, as we integrate it over small discrete units of time it gives us a prediction of the current state (current position, force, etc.). The predicted state variables are fed back into the derivative as linear equation constants to be then integrated again.\cite{youtube:sseq} However, looking at the relationship between variables in a state space equation can describe the stability of a system, which is particularly useful in stick--slip motion.
 % Maybe include equations for better understanding? wait, do they even care?
-
-\subsection{The Dahl Model}
+ 
+\subsection{The Dahl Model} 
+% Good reference to different figures and graphs in text
 While the standard textbook definition for friction stem from rigid body microscopic asperities, the Dahl Model instead visualizes two bodies making contact from elastic bristles scattered over the contacting surface\cite{p:dm}. Illustrated in figure \ref{fig:bristles}. 
 
 \begin{figure}[htbp]
@@ -114,7 +115,7 @@ The Dahl model is defined as the following:
 Where $F_{c}$ is the coulomb friction of the surface, x is the displacement from original position (this is primarily focused on the microscopic displacements), and $\sigma_{0}$ is the "stiffness" of microscopic bumps and affects the shift to maximum coulomb friction.
 
 To use this for state space equations we must find the derivative using chain rule:
-
+% Very nice notation of crossing out variables / terms 
 \begin{align}
     \frac{\diff F}{\diff x} &= \cancel{-}\cancel{F_{c}}\cdot e^{-\frac{\sigma_{0}|x|}{F_{c}}}\cdot \cancel{-}\frac{\sigma_{0}}{\cancel{F_{c}}}\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)\mathrm{sgn}\left(x\right) \\
                             &= \sigma_{0}e^{-\frac{\sigma_{0}|x|}{F_{c}}}\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)\mathrm{sgn}\left(x\right)
@@ -143,7 +144,7 @@ The Dahl model's equation shares similar properties of an exponential function t
 \begin{figure}[htbp]
     \center
     \includegraphics[width=0.7\textwidth]{sscurve}
-    \caption{An annotation of a generic stress-strain curve\cite{youtube:sscurve}}
+    \caption{An annotated stress-strain curve\cite{youtube:sscurve}}
     \label{fig:sscurve}
 \end{figure}
 % \begin{enumerate}
@@ -277,6 +278,34 @@ The experimental procedure upon procuring this setup is:
     \item repeat steps 1-8 3 trials
     \item repeat for different materials
 \end{enumerate}
+
+\section{Results and Discussion}
+\subsection{Observations}
+The electrical tape was unable to enter kinetic friction, this is likely due to the fact that that the $\alpha$ in the lugre model is too large, meaning the transition to coulomb friction was too rapid (i.e. any increase in velocity resulted in a rapid decrease of frictional force to keep from sliding). It could be possible for the finger to indeed be in motion, except that the velocity is close to zero, explaining the seeming impossibility of reaching visible coulomb friction. Since the tape is viscoelastic, it has a strong elastic spring property, that like described in figure \ref{fig:sscurve}, the resultant frictional force is directly proportional to displacement, of which is a result of applied force, which explains the difficulty in achieving kinetic friction, and once the applied force reaches the breaking point, it slips. the addition of the elasticity of the finger introduces additional difficulty in reaching kinetic coulomb friction since elastic on elastic contact gives extra opportunity for the reaction force to reflect the applied force.
+
+For finger systems, it could be suggested that a modified lugre model should be used in which the $\sigma_{0}$ in $z=\frac{F}{\sigma_{0}}$ reflects the spring constant of a finger rather than microscopic bristles.
+
+The trials of rosin exhibited slip stick of short slip distance before immediately sticking and slipping again. This could be a result of the material being non-viscoelastic, as such, the friction did not have the double spring effect, otherwise it would have doubled the spring of finger and material's displacement before finally being able to slip. Instead, it immediately jumped to coulomb in the case of sufficient applied force. This would be the result of a high $\alpha$ in lugre model's variation of coulomb friction as a result of velocity described in g(v). And this could be a result of particulate friction that has not been looked into in this research, but the stickiness of rosin dust on the finger could be responsible for replacing the skin sebum from contacting the surface of the rosin on the pc board, and instead change into rosin on rosin contact.
+
+\subsection{Limitations of the data}
+The force sensor used was for measuring masses and would stop updating when no change is detected. This significantly impacted the accuracy of the data. Further improvement in methodology could involve high frequency force meter and scale that directly ouput into computer for high frequency data collection, in particular a computer with high monitor refreshrate and subsequently a better slow motion camera can capture much more details entailing the phases of stick slip behavior.
+Another limitation is the subject's muscle contraction when reseting, it is possible that force is applied prior to place the finger at the end for the string to not fall out of the pulley. It is also possible for the subject to unintentionally produce opposite force in the same direction of the frictional force to maximize slip stick behavior. Perhaps a future experiment with a moving surface rather than a moving finger would be used instead similar to \cite{p:ssf}
+
+
+% Overall comments (Giulian): 
+% Methodology is well written, but of course data is still not in
+% Lugre model differential equation is not there
+% Some punctuation errors are present throughout the document, periods, etc
+% Conclusion? 
+% You mention a state space system with "Vector" matrices at the start? But no matrices are seen in the work... not bad obviously but maybe make that clear
+% Coloring of that stress-strain diagram honestly doesn't fit with the rest of the document, if possible, black and white would look better...
+% Background Figure 1 maybe could be a little more clear by making the curve another color???
+% sections 2.1.1 and 2.1.2 are a bit short but maybe it makes sense since they are sub sub sections
+% Formatting: Maybe bold the equations / relationships 
+% Maybe its just me but the placement of the stress strain diagram doesn't fit in so well in the middle of a derivation? 
+% The visualization figure could be placed before or after the methology, currently its in the middle and a bit randomly placed 
+% Maybe you could have more in text citations and references to the literature that you read? Remember that at the end of the day this is a research paper and you should be referencing the literature and papers that you used to obtain the information and knowledge you have possesed and seek to display. 
+
 
 \pagebreak
 

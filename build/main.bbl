@@ -19,6 +19,53 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{p:ssf}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=41bc88db83abbb5aff98bfadbaa36641}{%
+           family={Babu},
+           familyi={B\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e3931b5cd24be04bfb3e54d215803afb}{%
+           family={Konyo},
+           familyi={K\bibinitperiod},
+           given={Masashi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6c11bfbd4e16a885473d7fbb7d6f7d73}{%
+           family={Nagano},
+           familyi={N\bibinitperiod},
+           given={Hikaru},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0e32ed0c5b2bbef4e878423ef999043c}{%
+           family={Tadokoro},
+           familyi={T\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{afab45a95ebd31b012ef46a22a061160}
+      \strng{fullhash}{83fe5988f25bff6832ed79a24e7c6481}
+      \strng{fullhashraw}{83fe5988f25bff6832ed79a24e7c6481}
+      \strng{bibnamehash}{afab45a95ebd31b012ef46a22a061160}
+      \strng{authorbibnamehash}{afab45a95ebd31b012ef46a22a061160}
+      \strng{authornamehash}{afab45a95ebd31b012ef46a22a061160}
+      \strng{authorfullhash}{83fe5988f25bff6832ed79a24e7c6481}
+      \strng{authorfullhashraw}{83fe5988f25bff6832ed79a24e7c6481}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Haptics}
+      \field{number}{3}
+      \field{title}{Introducing Whole Finger Effects in Surface Haptics: An Extended Stick- Slip Model Incorporating Finger Stiffness}
+      \field{volume}{11}
+      \field{year}{2018}
+      \field{pages}{417\bibrangedash 430}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TOH.2018.2806458
+      \endverb
+      \keyw{Force;Friction;Kinematics;Rough surfaces;Surface roughness;Haptic interfaces;Rendering (computer graphics);Tactile exploration;finger stiffness;friction;haptic rendering;stick-slip motion;finger pad;stiffness ellipse;finger posture}
+    \endentry
     \entry{p:dm}{article}{}{}
       \name{author}{4}{}{%
         {{hash=ef7ddc464b2dfbc8e84599d8098daaa9}{%
