@@ -1,0 +1,2 @@
+Maybe need to record displacement like mentioned in the research https://sci-hub.box/10.1115/IMECE2015-51255
+Wait for presliding we don't need a capacitive sensor because our fingers have obvious enough movement, perhaps we simply need a gear ratio that more obviously shows the movement
