@@ -90,7 +90,7 @@ Refers to the increase in static friction as a result of time. Described as the 
 
 \subsection{State Space Equations}
 To coherently account for behaviour involving state changes, we must shift to dynamic models that uses state space equations. Most namely, the Dahl Model and LuGre Model
-In state space equations, there exists "state variables" that capture internal states of the system, when there is more than one, it is packaged into a vector matrix. State space equations define the derivative of state variable as a function of state variables, this gives us the rate of change at an instant, as we integrate it over small discrete units of time it gives us a prediction of the current state (current position, force, etc.). The predicted state variables are fed back into the derivative as linear equation constants to be then integrated again.\cite{youtube:sseq} However, looking at the relationship between variables in a state space equation can describe the stability of a system, which is particularly useful in stick--slip motion.
+In state space equations, there exists "state variables" that capture internal states of the system, when there is more than one, it is packaged into a vector matrix. State space equations define the derivative of state variable as a function of state variables, this gives us the rate of change at an instant, as we integrate it over small discrete units of time it gives us a prediction of the current state (current position, force, etc.). The predicted state variables are fed back into the derivative as linear equation constants to be then integrated again.\parencite{youtube:sseq} However, looking at the relationship between variables in a state space equation can describe the stability of a system\parencite{youtube:sseq}, which is particularly useful in stick--slip motion.
 % Maybe include equations for better understanding? wait, do they even care?
  
 \subsection{The Dahl Model} 
@@ -112,7 +112,7 @@ The Dahl model is defined as the following:
     \label{eq:dahlexp}
 \end{equation}
 
-Where $F_{c}$ is the coulomb friction of the surface, x is the displacement from original position (this is primarily focused on the microscopic displacements), and $\sigma_{0}$ is the "stiffness" of microscopic bumps and affects the shift to maximum coulomb friction.
+Where $F_{c}$ is the coulomb friction of the surface, x is the displacement from original position (this is primarily focused on the microscopic "pre-displacements"), and $\sigma_{0}$ is the "stiffness" of microscopic bumps and affects the shift to maximum coulomb friction.
 
 To use this for state space equations we must find the derivative using chain rule:
 % Very nice notation of crossing out variables / terms 
