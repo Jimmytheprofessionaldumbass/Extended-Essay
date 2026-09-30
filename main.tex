@@ -31,7 +31,12 @@
 
     \section{Introduction}
     \label{sec:introduction} %
-    Friction is a topic that has intrigued people for millenia, and pioneered to this very day. Think honestly, what causes friction? Small microscopic asperities? Then how does perfectly smooth rubber still present friction? and why would jagged ice be so slippery? Is water the issue? Then why can you tread on water? From scientists, control engineers, and frankly, scholars that experienced its’ effects in other forms, are all trying to understand this confounding concept. In particular, slip-stick friction is the limit cycle of an objects’ continuous oscillation between slipping and sticking, such as seen in violins, door’s creakings, and badly engineered anything. It is a topic fixated by engineers in trying to reduce, common solutions include adding grease, oil, etc. However, in the realm of competitive Minecraft, there exists many instances where the desirable effect of clicking fast can be applied by exploitation of slip stick atop the mouse. This is referred to in the community as “drag clicking”. 
+    Friction is a topic that has intrigued people for millenia, and pioneered to this very day. Think honestly, what causes friction? Small microscopic asperities? Then how does perfectly smooth rubber still present friction? and why would jagged ice be so slippery? Is water the issue? Then why can you tread on water? From scientists, control engineers, and frankly, scholars that experienced its’ effects in other forms, are all trying to understand this confounding concept. 
+
+    In particular, dry friction sometimes results in behaviours such as doors creaking, violin vibrations, etc. These behaviour are based on one simple limit cycle. The oscillating change between kinetic and static friction in a motion. Take for instance the Prandtl-Tomlinson model in which a point mass connected to a spring is superimposed on a moving belt. In the beginning, the mass is stationary
+%this is due to objects’ continuous oscillation between slipping and sticking, such as seen in violins, door’s creakings, and badly engineered anything.
+
+    It is a topic fixated by engineers in trying to reduce, common solutions include adding grease, oil, etc. However, in the realm of competitive Minecraft, there exists many instances where the desirable effect of clicking fast can be applied by exploitation of slip stick atop the mouse. This is referred to in the community as “drag clicking”. 
 
     In this paper, we will investigate how different materials with different LuGre parameters can affect properties of slip stick friction between finger and surfaces. Such properties include cycle frequency, critical force to enter slip-stick oscillations, as well as other observations of interest.
 
@@ -41,60 +46,67 @@
 \section{Background}
 \label{sec:background}
 
-\begin{wrapfigure}[14]{l}{0.4\textwidth}
+\begin{wrapfigure}[9]{l}{0.4\textwidth}
     \centering
-    \includegraphics[width=0.38\textwidth]{coulomb graph}
-    \caption{The change of friction with respect to velocity}
+    \includegraphics[width=0.38\textwidth]{coulomb graph}\caption{The change of friction with respect to velocity}
     \label{fig:coulombgraph}
 \end{wrapfigure}
 
-    Our commonly conceived model of friction---the coulomb friction model---has several limitations. It suggests that upon motion the frictional force is linearly proportional to the normal force and of the opposite direction of the velocity \cite{p:rvstlg}. illustrated in figure \ref{fig:coulombgraph}. This is perceived as due to microscopic asperities interlocking with one another. This, for instance explains the independence of apparent surface area and dependence on normal force (i.e. the normal force pushes more asperities in contact, despite small appearant contact area, true microscopic contact area is much larger due to the increased force) However, friction still has much greater depth covering phenomena such as:
+    Our commonly conceived model of friction---the coulomb friction model---has several limitations. It suggests that upon motion the frictional force is immediately linearly proportional to the normal force of the opposite direction of the velocity \cite{p:rvstlg} illustrated in figure \ref{fig:coulombgraph}. This is perceived as due to microscopic asperities interlocking with one another (Figure \ref{fig:asperities illustration}. 
+
+    \begin{wrapfigure}{r}{0.4\textwidth}
+    \centering
+    \includegraphics[width=.4\textwidth]{asperities illustration}
+    \caption{Illustration of Asperities \parencite{b:robotics}}
+    \label{fig:asperities illustration}
+\end{wrapfigure}
+
+    This, for instance explains the independence of frictional force on apparent surface area and how its rather dependent on normal force. this is because the normal force pushes more asperities in contact, therefore true microscopic contact area between asperities is much larger despite small appearant contact area. However, friction still includes much more confounding exceptions such as:
+
 \begin{enumerate}
     \item The Stribeck Effect
-    \item The Microscale pre-slip deformations
+    \item Microscale pre-slip deformations
     \item Dependence on past events
-    \item Ultimate Friction aging
+    \item Ultimate friction aging
 \end{enumerate}
 
-
-
-
-
 \subsection{Friction Phenomena}
-% \begin{figure}[htbp]
-%     \begin{subfigure}
-%         \center
-%         \includegraphics[width=0.38\textwidth]{viscous friction}
-%         \caption{Friction-velocity graph of viscous friction}
-%         \label{fig:viscous friction}
-%     \end{subfigure}
-%     \begin{subfigure}
-%         \center
-%         \includegraphics[width=0.38\textwidth]{static friction graph}
-%         \caption{Friction-velocity graph of static friction}
-%         \label{fig:static friction}
-%     \end{subfigure}
-% \end{figure}
+\begin{figure}[htbp]
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=0.38\textwidth]{viscous friction}
+        \caption{Friction-velocity graph of viscous friction}
+        \label{fig:viscous friction}
+    \end{subfigure}
+    \begin{subfigure}{.45\textwidth}
+        \center
+        \includegraphics[width=0.38\textwidth]{static friction graph}
+        \caption{Friction-velocity graph of static friction}
+        \label{fig:static friction}
+    \end{subfigure}
+\end{figure}
 
 \subsubsection{Viscous Friction} % Very good organizatiion of subpoints 
 Viscous friction introduces the role of velocity in that sliding friction increases with velocity. 
-Though exact instantaneous velocity cannot be provided via discrete data points, a treadmill setup could mitigate this with a constant velocity upon contact
+Though exact instantaneous velocity cannot be provided via discrete data points, a treadmill setup could mitigate this with a constant velocity upon contact %probably unnecessary, unless you change it to be relevant
 
 \subsubsection{Static Friction}
-    Friction exhibits a noticable decrease when set in motion. Increasing applied force beyond this is usually the exciter for slip-stick friction.
+    Static friction describes the higher frictional force when stationary since friction exhibits a noticable decrease when increasing applied force beyond this point. shifting from static friction to dThis is usually the exciter for slip-stick friction.
+    Static friction describes the higher frictional force when stationary since friction exhibits a noticable decrease when increasing applied force beyond this point. shifting from static friction to kinetic friction is usually the exciter for slip-stick friction.
 
 \subsubsection{The Stribeck Effect}
-The Stribeck Effect suggests that static friction does not suddenly jump to viscous friction but happens gradually. The rate of friction mode change depends much on material properties and in particular, we expect sharper jumps to exhibit superior drag-clicking capabilities
+The Stribeck Effect suggests that static friction does not suddenly jump to viscous friction but happens gradually. The rate of friction mode change depends much on material properties and in particular, we expect sharper jumps to exhibit superior drag-clicking capabilities. Illustrated in figure \ref{fig:}
     
 \subsubsection{Rising Static friction}
-Refers to the increase in static friction as a result of time. Described as the normal forces gradually increasing true surface area between microscopic asperities over time.
+Refers to the increase in static friction as a result of time. Described as the  increase in true surface area between microscopic asperities over time due to constant application of normal force.
 
     
 
 
 \subsection{State Space Equations}
 To coherently account for behaviour involving state changes, we must shift to dynamic models that uses state space equations. Most namely, the Dahl Model and LuGre Model
-In state space equations, there exists "state variables" that capture internal states of the system, when there is more than one, it is packaged into a vector matrix. State space equations define the derivative of state variable as a function of state variables, this gives us the rate of change at an instant, as we integrate it over small discrete units of time it gives us a prediction of the current state (current position, force, etc.). The predicted state variables are fed back into the derivative as linear equation constants to be then integrated again.\parencite{youtube:sseq} However, looking at the relationship between variables in a state space equation can describe the stability of a system\parencite{youtube:sseq}, which is particularly useful in stick--slip motion.
+In state space equations, there exists "state variables" that capture internal states of the system, when there is more than one, it is packaged into a vector matrix. In state space equations, the derivative of state variable is a function of state variables, in which integrating them over a tiny unit of time gives us the state at the next instant\parencite{youtube:sseq}. As a result it gives us a prediction of the current state (current position, force, etc.) successively to give a sequential account of the simulated process. And looking at the relationship between variables in a state space equation can describe the stability of a system \parencite{youtube:sseq}, which is particularly useful in stick--slip motion.
+
 % Maybe include equations for better understanding? wait, do they even care?
  
 \subsection{The Dahl Model} 
@@ -284,6 +296,358 @@ The experimental procedure upon procuring this setup is:
 \end{enumerate}
 
 \section{Results and Discussion}
+
+\begin{table}
+    \footnotesize
+    \caption{PC Board}
+    \begin{tabular} {| c  c  c |}
+        \hline
+        Trial 1 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 252           & 70        \\
+                & 231.5         &           \\
+                & 210.5         &           \\
+                & 215           &           \\
+                & 228.5         &           \\
+                & 209           &           \\
+                & 199           &           \\
+                & 238           &           \\
+                & 243           &           \\
+                & 248           &           \\
+                & 259           &           \\
+                & 269           &           \\
+                & 252.5         &           \\
+                & 250           &           \\
+                & 262.5         &           \\
+                & 252.5         &           \\
+                & 269.5         &           \\
+        \hline
+        Average & 241.1470588   & 70        \\
+        \hline
+        $\mu_{fr} = \frac{F_{fr}}{F_{N}}$ & 0.290279302 & \\
+        \hline
+    \end{tabular}
+    \hfill
+    \begin{tabular} {| c  c  c |}
+        \hline
+        Trial 2 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 322           & 245       \\
+                & 248           &           \\
+                & 230           &           \\
+                & 273           &           \\
+                & 267.5         &           \\
+        \hline
+        Average & 268.1         & 245       \\
+        \hline
+        $\mu_{fr} = \frac{F_{fr}}{F_{N}}$ & 0.91383812 & \\
+        \hline
+    \end{tabular}
+    \hfill
+    \begin{tabular} {| c  c  c |}
+        \hline
+        Trial 3 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 227.5         & 150       \\
+                & 178           &           \\
+                & 210.5         &           \\
+                & 199.8         &           \\
+                & 179.2         &           \\
+                & 194.3         &           \\
+                & 222.5         &           \\
+                & 225           &           \\
+        \hline
+        Average & 204.6         & 150       \\
+        \hline
+        $\mu_{fr} = \frac{F_{fr}}{F_{N}}$ & 0.73313783 & \\
+        \hline
+    \end{tabular}
+    \caption{Cello Rosin}
+    \begin{tabular}[t]{| c  c  c |}
+        \hline
+        Trial 1 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 216.5         & 120       \\
+                & 165.2         &           \\
+                & 172.7         &           \\
+                & 180           &           \\
+                & 191.6         &           \\
+                & 181.3         &           \\
+                & 214           &           \\
+                & 265           &           \\
+                & 271.5         &           \\
+                & 239           &           \\
+                & 245           &           \\
+                & 264.5         &           \\
+                & 243.5         &           \\
+                & 253.5         &           \\
+                & 233.5         &           \\
+                & 225.5         &           \\
+                & 249           &           \\
+                & 251.5         &           \\
+                & 263.5         &           \\
+                & 294           &           \\
+                & 300           &           \\
+                & 300           &           \\
+                & 295           &           \\
+                & 304.5         &           \\
+                & 302           &           \\
+                & 300.5         &           \\
+                & 296           &           \\
+                & 304           &           \\
+                & 302           &           \\
+                & 304           &           \\
+                & 317           &           \\
+                & 317           &           \\
+                & 320           &           \\
+                \hline
+    \end{tabular}
+    \hfill
+    \begin{tabular}[t]{| c  c  c |}
+        \hline
+        Trial 1 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 337.5         &           \\
+                & 349           &           \\
+                & 347.5         &           \\
+                & 349.5         &           \\
+                & 362.5         &           \\
+                & 366           &           \\
+                & 363.5         &           \\
+                & 361           &           \\
+                & 352.5         &           \\
+                & 370.5         &           \\
+                & 372           &           \\
+                & 372           &           \\
+                & 370.5         &           \\
+                & 364           &           \\
+        \hline
+        Average & 289.793617    & 120       \\
+        \hline
+        $\mu_{fr} = \frac{F_{fr}}{F_{N}}$ & 0.414087795 & \\
+        \hline
+        \hline
+        Trial 2 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 444           & 120       \\
+                & 444           &           \\
+                & 428.5         &           \\
+                & 428.5         &           \\
+                & 428.5         &           \\
+                & 423           &           \\
+                & 423           &           \\
+                & 400.5         &           \\
+                & 400.5         &           \\
+                & 383.5         &           \\
+                & 376.5         &           \\
+                & 278.5         &           \\
+                & 286.5         &           \\
+        \hline
+    \end{tabular}
+    \begin{tabular}[t]{| c  c  c |}
+        \hline
+        Trial 2 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 311.5         &           \\
+                & 322.5         &           \\
+                & 322.5         &           \\
+                & 316.5         &           \\
+                & 316.5         &           \\
+                & 329.5         &           \\
+                & 329.5         &           \\
+                & 344           &           \\
+                & 458           &           \\
+                & 458           &           \\
+                & 458           &           \\
+                & 462.5         &           \\
+                & 462.5         &           \\
+                & 462.5         &           \\
+                & 456.5         &           \\
+                & 456.5         &           \\
+                & 456.5         &           \\
+                & 450           &           \\
+                & 450           &           \\
+                & 442           &           \\
+                & 442           &           \\
+                & 444           &           \\
+                & 439           &           \\
+                & 462.5         &           \\
+                & 462.5         &           \\
+                & 501.5         &           \\
+                & 517.5         &           \\
+                & 517.5         &           \\
+                & 514           &           \\
+                & 519.5         &           \\
+                & 516.5         &           \\
+                & 516.5         &           \\
+                & 507           &           \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\pagebreak
+
+\begin{table}
+    \footnotesize
+    \begin{tabular}[t]{| c  c  c |}
+        \hline
+        Trial 2 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 505           &           \\
+                & 505           &           \\
+                & 502           &           \\
+                & 506.5         &           \\
+                & 506.5         &           \\
+                & 490.5         &           \\
+        \hline
+        Average & 434.3557692   & 120       \\
+        \hline
+        $\mu_{fr} = \frac{F_{fr}}{F_{N}}$ & 0.276271224 & \\
+        \hline
+        \hline
+        Trial 3 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 246.5         & 215       \\
+                & 246.5         &           \\
+                & 321           &           \\
+                & 321           &           \\
+                & 331           &           \\
+                & 331           &           \\
+                & 331           &           \\
+                & 312.5         &           \\
+                & 312.5         &           \\
+                & 271           &           \\
+                & 297           &           \\
+                & 349.5         &           \\
+                & 365.5         &           \\
+                & 365.5         &           \\
+                & 385           &           \\
+                & 377           &           \\
+                & 377           &           \\
+                & 352.5         &           \\
+                & 355.5         &           \\
+                & 374           &           \\
+                & 380           &           \\
+                & 380           &           \\
+                & 391           &           \\
+                & 391           &           \\
+                & 402.5         &           \\
+                & 388.5         &           \\
+                & 375           &           \\
+                & 380.5         &           \\
+                & 383.5         &           \\
+                & 369           &           \\
+                & 351           &           \\
+                & 340.5         &           \\
+                & 350           &           \\
+                & 350           &           \\
+                & 344           &           \\
+                \hline
+    \end{tabular}
+    \hfill
+    \begin{tabular}[t]{| c c c |}
+        \hline
+        Trial 3 & $F_{n}$       & $F_{fr}$  \\
+        \hline
+                & 320.5         &           \\
+                & 320.5         &           \\
+                & 326           &           \\
+                & 326           &           \\
+                & 327.5         &           \\
+                & 327.5         &           \\
+                & 344.5         &           \\
+                & 346           &           \\
+                & 346           &           \\
+                & 365           &           \\
+                & 389.5         &           \\
+                & 395           &           \\
+                & 395           &           \\
+                & 395           &           \\
+                & 397           &           \\
+                & 397           &           \\
+                & 394.5         &           \\
+                & 394.5         &           \\
+                & 399.5         &           \\
+                & 399.5         &           \\
+                & 412           &           \\
+                & 414.5         &           \\
+                & 400.5         &           \\
+                & 400.5         &           \\
+                & 381.5         &           \\
+                & 377.5         &           \\
+                & 384.5         &           \\
+                & 385.5         &           \\
+                & 385.5         &           \\
+                & 385.5         &           \\
+                & 380           &           \\
+                & 380           &           \\
+                & 385           &           \\
+                & 385           &           \\
+                & 385           &           \\
+        \hline
+        Average & 362.1071429   & 215       \\
+        \hline
+        $\mu_{fr} = \frac{F_{fr}}{F_{N}}$ & 0.593746918 & \\
+        \hline
+    \end{tabular}
+\end{table}
+\pagebreak
+\begin{table}
+    \caption{Sharpie}
+    \begin{tabular} {| c c c c |}
+        \hline
+        Trial 1 & $F_{N}$   & $F_{fr}$  & $\mu_{fr}$    \\
+        \hline
+                & 218       & 100       &               \\
+                & 198.4     &           &               \\
+                & 220       &           &               \\
+                & 242.5     &           &               \\
+                & 210.5     &           &               \\
+        \hline
+        Average & 217.88    & 100       & 0.458968239   \\
+        \hline
+    \end{tabular}
+
+    \begin{tabular} {| c c c c |}
+        \hline
+        Trial 2 & $F_{N}$   & $F_{fr}$  & $\mu_{fr}$    \\
+        \hline
+                & 179.1     & 515       & 2.875488554   \\
+                & 148.3     & 535       & 3.607552259   \\
+                & 178.5     & 475       & 2.661064426   \\
+                & 263.5     & 635       & 2.409867173   \\
+                & 309.5     & 610       & 1.97092084    \\
+                & 269       & 410       & 1.524163569   \\
+        \hline
+        Average &           &           & 2.508176137   \\
+        \hline
+    \end{tabular}
+
+    \begin{tabular} {| c c c c |}
+        \hline
+        Trial 3 & $F_{N}$   & $F_{fr}$  & $\mu_{fr}$    \\
+        \hline
+                & 187.1     & 210       & 1.122394441   \\
+                & 218       & 265       & 1.21559633    \\
+                & 234       & 405       & 1.730769231   \\
+                & 231       & 465       & 2.012987013   \\
+                & 241       & 505       & 2.095435685   \\
+                & 226       & 535       & 2.367256637   \\
+                & 215       & 550       & 2.558139535   \\
+                & 216.5     & 555       & 2.563510393   \\
+                & 262       & 580       & 2.213740458   \\
+                & 313       & 555       & 1.773162939   \\
+                & 316.5     & 590       & 1.864139021   \\
+                & 322.5     & 620       & 1.92248062    \\
+                & 333.5     & 760       & 2.27886057    \\
+                & 403.5     & 715       & 1.771995043   \\
+                & 402.5     & 165       & 0.409937888   \\
+        \hline
+        Average &           &           & 1.860027054   \\
+        \hline
+    \end{tabular}
+\end{table}
+
 \subsection{Observations}
 The electrical tape was unable to enter kinetic friction, this is likely due to the fact that that the $\alpha$ in the lugre model is too large, meaning the transition to coulomb friction was too rapid (i.e. any increase in velocity resulted in a rapid decrease of frictional force to keep from sliding). It could be possible for the finger to indeed be in motion, except that the velocity is close to zero, explaining the seeming impossibility of reaching visible coulomb friction. Since the tape is viscoelastic, it has a strong elastic spring property, that like described in figure \ref{fig:sscurve}, the resultant frictional force is directly proportional to displacement, of which is a result of applied force, which explains the difficulty in achieving kinetic friction, and once the applied force reaches the breaking point, it slips. the addition of the elasticity of the finger introduces additional difficulty in reaching kinetic coulomb friction since elastic on elastic contact gives extra opportunity for the reaction force to reflect the applied force.
 

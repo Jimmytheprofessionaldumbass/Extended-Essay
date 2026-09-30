@@ -13,5 +13,5 @@
 \contentsline {subsection}{\numberline {3.2}Research Hypothesis and Variables}{6}{}%
 \contentsline {subsection}{\numberline {3.3}Method}{7}{}%
 \contentsline {section}{\numberline {4}Results and Discussion}{8}{}%
-\contentsline {subsection}{\numberline {4.1}Observations}{10}{}%
-\contentsline {subsection}{\numberline {4.2}Limitations of the data}{10}{}%
+\contentsline {subsection}{\numberline {4.1}Observations}{8}{}%
+\contentsline {subsection}{\numberline {4.2}Limitations of the data}{8}{}%

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1790690462.54005 "build/main.bcf" "build/main.bbl" "build/main" 1790695769.40656 0
-  "build/main.bcf" 1790695769.34792 109386 e28e56e9c86f1b625351f1646a2d297b "pdflatex"
+["biber main"] 1790648286.77118 "main.bcf" "main.bbl" "main" 1790648429.70868 0
+  "main.bcf" 1790648429.63574 109386 e28e56e9c86f1b625351f1646a2d297b "pdflatex"
   "works cited.bib" 1790647124.05306 2239 3c3e2adb49a6dd6c46e656d10d1a8d08 ""
   (generated)
-  "build/main.bbl"
-  "build/main.blg"
+  "main.bbl"
+  "main.blg"
   (rewritten before read)
-["pdflatex"] 1790695767.85017 "main.tex" "build/main.pdf" "main" 1790695769.4068 0
+["pdflatex"] 1790648428.13043 "main.tex" "main.pdf" "main" 1790648429.70892 0
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -29,11 +29,8 @@
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1248133631 37912 77d683123f92148345f3fc36a38d9ab1 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
-  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -163,10 +160,6 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1784093434 5573038 ad3e0d8c63dbec7957113a2386d66888 ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1784093553 3656514 889b8b44a344219536a46a4152832c47 ""
   "/usr/local/texlive/2026/texmf.cnf" 1784093428.67125 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "build/main.aux" 1790695769.34592 5324 1c3ef7a654899952df8efc08de92ea82 "pdflatex"
-  "build/main.bbl" 1790690463.28606 10786 21c38c9169013e5b67efbd3163c24962 "biber build/main"
-  "build/main.run.xml" 1790695769.34913 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
-  "build/main.toc" 1790695769.34913 1180 ad08de13abe1bc4b8cfac2a9524f57c8 "pdflatex"
   "images/asperities illustration.png" 1790597042.40671 292164 6d29654b6b9d90caf4a8647b39e2584d ""
   "images/bristles.png" 1790398388.11522 830719 c5c29b2da4b809fd9a902a86766863e5 ""
   "images/coulomb graph.png" 1790398388.11622 10603 77e2d17f90062f49bfb5577e0b315801 ""
@@ -174,12 +167,16 @@
   "images/sscurve.png" 1790398388.13022 19432685 f8e65a923308c329f2d40f647cc0b93f ""
   "images/static friction graph.png" 1790398388.13022 11302 62e0e7dbe882cd8ef043c87ecf40bdfa ""
   "images/viscous friction.png" 1790398388.13622 11372 e96c2d65d53c361ab70edddfed72c4ba ""
-  "main.tex" 1790695767.70891 35565 6101bc12d5d855aa2f6dfd90f6eac2a3 ""
+  "main.aux" 1790648429.63474 4988 bf9a943faca1e308c33ff65a0a3d3dc1 "pdflatex"
+  "main.bbl" 1790648287.48856 10786 21c38c9169013e5b67efbd3163c24962 "biber main"
+  "main.run.xml" 1790648429.63728 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
+  "main.tex" 1790648426.43774 21603 0422259f8a91faed0a560acc9e2f547e ""
+  "main.toc" 1790648429.63728 1178 07335a4323e614a225f03773e7066353 "pdflatex"
   (generated)
-  "build/main.aux"
-  "build/main.bcf"
-  "build/main.log"
-  "build/main.pdf"
-  "build/main.run.xml"
-  "build/main.toc"
+  "main.aux"
+  "main.bcf"
+  "main.log"
+  "main.pdf"
+  "main.run.xml"
+  "main.toc"
   (rewritten before read)

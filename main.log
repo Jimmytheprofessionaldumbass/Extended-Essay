@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  29 SEP 2026 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  29 SEP 2026 10:20
 entering extended mode
- \write18 enabled.
- file:line:error style messages enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -23,40 +22,56 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/comment/comment.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+
+Excluding comment 'comment')
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count284
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count285
- (/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -119,7 +134,8 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@mincompwidth=\count331
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -208,12 +224,14 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip72
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 \c@textcitecount=\count400
 \c@textcitetotal=\count401
@@ -231,18 +249,21 @@ File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count409
 \c@bbx:relatedtotal=\count410
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
 File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -258,14 +279,17 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
- (/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2026-06-18 L3 programming layer (loader) 
- (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count411
 ))
@@ -273,41 +297,51 @@ Package biblatex Info: ... and expl3
 (biblatex)             2026-06-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen151
 \Gin@req@width=\dimen152
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2026/05/19 v2.18d AMS math features
 \@mathmargin=\skip73
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen153
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen154
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count412
@@ -357,13 +391,17 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2965.
 LaTeX Info: Redefining \] on input line 2966.
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/cancel/cancel.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen162
 \captionmargin=\dimen163
@@ -382,9 +420,11 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count426
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count427
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
- (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count428
@@ -399,29 +439,42 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen176
 \Gm@layoutvoffset=\dimen177
 \Gm@dimlist=\toks23
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen178
 \WF@size=\dimen179
 \c@WF@wrappedlines=\count431
 \WF@box=\box55
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
 \pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen180
 \pgfutil@tempdimb=\dimen181
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box56
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks26
 \pgfkeys@temptoks=\toks27
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
 \pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen182
@@ -444,28 +497,38 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
 \pgf@sys@id@count=\count436
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count437
 \pgfsyssoftpath@bigbuffer@items=\count438
 )
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -475,18 +538,43 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen192
 \pgfmath@count=\count439
 \pgfmath@box=\box57
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count440
-)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen193
 \pgf@picmaxx=\dimen194
@@ -502,77 +590,125 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen260
 \pgf@zx=\dimen261
 \pgf@zy=\dimen262
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen263
 \pgf@path@lasty=\dimen264
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen265
 \pgf@shorten@start@additional=\dimen266
 )
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
 \pgf@picture@serial@count=\count441
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen267
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen268
 \pgf@pt@y=\dimen269
 \pgf@pt@temp=\dimen270
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowsep=\dimen271
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen272
 \pgf@sys@shading@range@num=\count442
 \pgf@shadingcount=\count443
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box61
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box62
-) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen273
 \pgf@nodesepend=\dimen274
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen275
 \pgffor@skip=\dimen276
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
-)) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count444
 \pgfplotmarksize=\dimen277
@@ -593,19 +729,23 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count446
 \tikznumberofcurrentchild=\count447
 \tikz@fig@count=\count448
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmatrixcurrentrow=\count449
 \pgfmatrixcurrentcolumn=\count450
 \pgf@matrix@numberofcolumns=\count451
 )
 \tikz@expandcount=\count452
- (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 \@quotelevel=\count453
 \@quotereset=\count454
- (build/main.aux)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -624,7 +764,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -634,10 +775,12 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (build/main.bbl)
+
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
- (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count455
 \scratchdimen=\dimen286
@@ -652,9 +795,12 @@ Package biblatex Info: Reference segment=0 on input line 26.
 \everyMPtoPDFconversion=\toks38
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
@@ -694,7 +840,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(build/main.toc)
+(./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -708,30 +854,38 @@ Package pdftex.def Info: images/coulomb graph.png  used on input line 46.
 (pdftex.def)             Requested size: 172.99498pt x 136.9441pt.
 
 
-Package wrapfig Warning: Collision between wrapping environments on input line 52.
+Package wrapfig Warning: Collision between wrapping environments on input line 
+52.
 
 <images/asperities illustration.png, id=13, 3228.06pt x 1951.29pt>
 File: images/asperities illustration.png Graphic file (type png)
 <use images/asperities illustration.png>
-Package pdftex.def Info: images/asperities illustration.png  used on input line 54.
+Package pdftex.def Info: images/asperities illustration.png  used on input line
+ 54.
 (pdftex.def)             Requested size: 182.09486pt x 110.04562pt.
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 59.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 59
+.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 62.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 62
+.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 63.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 63
+.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 64.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 64
+.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 65.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 65
+.
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 68.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 68
+.
 
 <images/viscous friction.png, id=15, 676.5275pt x 556.0775pt>
 File: images/viscous friction.png Graphic file (type png)
@@ -741,42 +895,42 @@ Package pdftex.def Info: images/viscous friction.png  used on input line 72.
 <images/static friction graph.png, id=16, 682.55pt x 545.03625pt>
 File: images/static friction graph.png Graphic file (type png)
 <use images/static friction graph.png>
-Package pdftex.def Info: images/static friction graph.png  used on input line 78.
+Package pdftex.def Info: images/static friction graph.png  used on input line 7
+8.
 (pdftex.def)             Requested size: 77.84721pt x 62.15807pt.
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 84.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 84
+.
 
-[2 <./images/coulomb graph.png> <./images/viscous friction.png> <./images/static friction graph.png> <./images/asperities illustration.png>]
+[2 <./images/coulomb graph.png> <./images/viscous friction.png> <./images/stati
+c friction graph.png> <./images/asperities illustration.png>]
 
 LaTeX Warning: Reference `fig:' on page 3 undefined on input line 93.
 
 <images/bristles.png, id=22, 559.08875pt x 373.395pt>
 File: images/bristles.png Graphic file (type png)
 <use images/bristles.png>
-Package pdftex.def Info: images/bristles.png  used on input line 113.
+Package pdftex.def Info: images/bristles.png  used on input line 112.
 (pdftex.def)             Requested size: 341.43307pt x 228.0384pt.
 [3]
-<images/sscurve.png, id=35, 608.5134pt x 462.528pt>
+<images/sscurve.png, id=34, 608.5134pt x 462.528pt>
 File: images/sscurve.png Graphic file (type png)
 <use images/sscurve.png>
-Package pdftex.def Info: images/sscurve.png  used on input line 157.
+Package pdftex.def Info: images/sscurve.png  used on input line 156.
 (pdftex.def)             Requested size: 318.66948pt x 242.21681pt.
  [4 <./images/bristles.png>] [5 <./images/sscurve.png>]
 <images/setup.png, id=45, 862.22125pt x 569.12625pt>
 File: images/setup.png Graphic file (type png)
 <use images/setup.png>
-Package pdftex.def Info: images/setup.png  used on input line 268.
+Package pdftex.def Info: images/setup.png  used on input line 267.
 (pdftex.def)             Requested size: 318.66948pt x 210.33894pt.
- [6]
-
-LaTeX Warning: Float too large for page by 0.78746pt on input line 481.
-
-[7 <./images/setup.png>] [8] [9] [10] [11] [12]
-Overfull \hbox (3.49924pt too wide) in paragraph at lines 677--677
-[]\OT1/cmr/m/n/12 Karl Jo-hanas-trom and Car-los Canudas-de-Wit. ``Re-vis-it-ing the Lu-Gre fric-tion model''.
+ [6] [7 <./images/setup.png>] [8]
+Overfull \hbox (3.49924pt too wide) in paragraph at lines 324--324
+[]\OT1/cmr/m/n/12 Karl Jo-hanas-trom and Car-los Canudas-de-Wit. ``Re-vis-it-in
+g the Lu-Gre fric-tion model''.
  []
 
-[13] (build/main.aux)
+[9] (./main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
@@ -790,18 +944,34 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23038 strings out of 467168
- 463046 string characters out of 5409468
- 1318329 words of memory out of 5000000
- 51989 multiletter control sequences out of 15000+600000
- 634519 words of font info for 64 fonts, out of 8000000 for 9000
+ 23031 strings out of 467168
+ 462871 string characters out of 5409468
+ 1281327 words of memory out of 5000000
+ 51983 multiletter control sequences out of 15000+600000
+ 634065 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,104p,1097b,1506s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on build/main.pdf (13 pages, 1579951 bytes).
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
+2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+26/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/202
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2026
+/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on main.pdf (9 pages, 1543326 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
