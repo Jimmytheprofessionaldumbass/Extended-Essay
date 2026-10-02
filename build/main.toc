@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.4}Lugre Model}{6}{}%
 \contentsline {section}{\numberline {3}Experiment}{6}{}%
 \contentsline {subsection}{\numberline {3.1}Drag clicking specific methods}{6}{}%
-\contentsline {subsection}{\numberline {3.2}Research Hypothesis and Variables}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Research Hypothesis and Variables}{7}{}%
 \contentsline {subsection}{\numberline {3.3}Method}{7}{}%
 \contentsline {section}{\numberline {4}Results and Discussion}{8}{}%
 \contentsline {subsection}{\numberline {4.1}Observations}{10}{}%
