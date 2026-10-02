@@ -1,0 +1,5 @@
+my current setup only looks for coulomb friction (I think)
+
+anyways to go for stribeck friction you need more velocities at lower speed.
+
+also there the rope/string has some weight, when i made the string straight, the force sensor measured about 6-8
