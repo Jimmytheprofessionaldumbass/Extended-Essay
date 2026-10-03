@@ -3,3 +3,25 @@ my current setup only looks for coulomb friction (I think)
 anyways to go for stribeck friction you need more velocities at lower speed.
 
 also there the rope/string has some weight, when i made the string straight, the force sensor measured about 6-8
+
+Yo this force sensor is like horrible it scales down by a factor of 0.385267 https://www.desmos.com/calculator/dicma1as9h
+
+ It was shown that the
+middle finger of the writing hand was able to most consistently apply the same normal force, and therefore gave
+the most repeatable results.
+
+To find Coulomb friction or the slope of friction as a function of velocity
+
+we need to know the velocity and the normal force and the tangential force
+
+experimental procedure:
+
+Ensure both hands are clean
+
+the motor oil hadn't been changed so 
+
+The fingernail is blocking accurate movement
+
+the force holding my body still may be introduced (and added to) frictional force
+
+
