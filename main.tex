@@ -33,26 +33,43 @@
     \label{sec:introduction} %
     Friction is a topic that has intrigued people for millenia, and pioneered to this very day. Think honestly, what causes friction? Small microscopic asperities? Then how does perfectly smooth rubber still present friction? and why would jagged ice be so slippery? Is water the issue? Then why can you tread on water? From scientists, control engineers, and frankly, scholars that experienced its’ effects in other forms, are all trying to understand this confounding concept. 
 
-    In particular, dry friction sometimes results in behaviours such as doors creaking, violin vibrations, etc. These behaviour are based on one simple limit cycle. The oscillating change between kinetic and static friction in a motion. Take for instance the Prandtl-Tomlinson model in which a point mass connected to a spring is superimposed on a moving belt. In the beginning, the mass is stationary
-%this is due to objects’ continuous oscillation between slipping and sticking, such as seen in violins, door’s creakings, and badly engineered anything.
+    In particular, dry friction sometimes results in behaviours such as doors creaking, violin vibrations, etc. The oscillating change between kinetic and static friction in a motion. Take for instance a mass pulled by a spring moving at constant velocity $v_{p}$ as illustrated in figure \ref{fig:spring mass}. In the beginning, the mass is stationary with an increasing applied force from the spring towards the right with static friction of equal magnitude pulling the opposite direction, once the elastic force exceeds the static friction force, accelerating the mass forward before stopping and looping back at to the beginning with elastic force being lower than the static friction.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=.7\textwidth]{spring mass system}
+    \caption{Mass being pulled by a spring at constant velocity \parencite{p:rvstlg}}
+    \label{fig:spring mass}
+\end{figure}
 
     It is a topic fixated by engineers in trying to reduce, common solutions include adding grease, oil, etc. However, in the realm of competitive Minecraft, there exists many instances where the desirable effect of clicking fast can be applied by exploitation of slip stick atop the mouse. This is referred to in the community as “drag clicking”. 
 
     In this paper, we will investigate how different materials with different LuGre parameters can affect properties of slip stick friction between finger and surfaces. Such properties include cycle frequency, critical force to enter slip-stick oscillations, as well as other observations of interest.
 
-%differing parameters of the lugre/dahl model varied by changing differing properties between finger and surface could affect properties of slip stick friction, such as oscillation frequency, applied normal force to enter slip stick friction, and other observed correlations deemed of interest.
-
-%attempt to find ways to test the slip stick properties pertaining to drag clicking by modeling material properties of common methods using advanced friction models such as LuGre and Dahl friction models.
 \section{Background}
 \label{sec:background}
 
 \begin{wrapfigure}[9]{l}{0.4\textwidth}
     \centering
-    \includegraphics[width=0.38\textwidth]{coulomb graph}\caption{The change of friction with respect to velocity}
+    \begin{tikzpicture}[>=stealth]
+        \draw[->, thin] (-2.2,0) -- (2.2,0) node[right] {$v$};
+        \draw[->, thin] (0,-1.5) -- (0,1.5) node[above] {$F$};
+
+        \draw[very thick] (-1.8,1) -- (0,1);
+        \draw [very thick] (0, 1.2) -- (0,-1.2);
+        \draw[very thick] (0,-1) -- (1.8,-1);
+    \end{tikzpicture}
     \label{fig:coulombgraph}
 \end{wrapfigure}
 
-    Our commonly conceived model of friction---the coulomb friction model---has several limitations. It suggests that upon motion the frictional force is immediately linearly proportional to the normal force of the opposite direction of the velocity \cite{p:rvstlg} illustrated in figure \ref{fig:coulombgraph}. This is perceived as due to microscopic asperities interlocking with one another (Figure \ref{fig:asperities illustration}. 
+    Our commonly conceived model of friction---the coulomb friction model---has several limitations. It suggests that static frictional force is proportional to the normal force, and that upon motion the frictional force becomes lower and whose magnitude is proportional to the normal force of the opposite direction of the velocity \cite{p:rvstlg} illustrated in figure \ref{fig:coulombgraph}. 
+
+    \begin{equation}
+        F_{c} = \mu_{c}F_{N}
+    \end{equation}
+
+    Common physics textbooks have this perceived as due to microscopic asperities interlocking with one another (Figure \ref{fig:asperities illustration}. 
+
 
     \begin{wrapfigure}{r}{0.4\textwidth}
     \centering
@@ -88,23 +105,33 @@
 
 \subsubsection{Viscous Friction} % Very good organizatiion of subpoints 
 Viscous friction introduces the role of velocity in that sliding friction increases with velocity. 
-Though exact instantaneous velocity cannot be provided via discrete data points, a treadmill setup could mitigate this with a constant velocity upon contact %probably unnecessary, unless you change it to be relevant
+Though exact instantaneous velocity cannot be provided via discrete data points such as simply recording a video on drag clicking because two frames in a video only provides average velocity rather than true instantaneous velocity, and is an impractical path considering the velocity vector changes a lot during drag clicking, it becomes increasingly difficult to experimentally determine values with this setup, a treadmill setup could mitigate this since running it at a constant velocity ensures mutual understanding of the velocity. Sketched in figure \ref{fig:treadmill}
+
+\begin{figure}[htbp]
+    \center
+    \includegraphics[width=.7\textwidth]{treadmill}
+    \caption{Sketch of a treadmill setup}
+    \label{fig:treadmill}
+\end{figure}
 
 \subsubsection{Static Friction}
-    Static friction describes the higher frictional force when stationary since friction exhibits a noticable decrease when increasing applied force beyond this point. shifting from static friction to dThis is usually the exciter for slip-stick friction.
-    Static friction describes the higher frictional force when stationary since friction exhibits a noticable decrease when increasing applied force beyond this point. shifting from static friction to kinetic friction is usually the exciter for slip-stick friction.
+    Static friction describes the maximum frictional force that is reached at rest. When applied force is beyond this threshold, the friction shifts from static friction to kinetic friction (lower than static friction). The process of this shift is often the exciter for slip stick friction.
 
 \subsubsection{The Stribeck Effect}
-The Stribeck Effect suggests that static friction does not suddenly jump to viscous friction but happens gradually. The rate of friction mode change depends much on material properties and in particular, we expect sharper jumps to exhibit superior drag-clicking capabilities. Illustrated in figure \ref{fig:}
-    
-\subsubsection{Rising Static friction}
-Refers to the increase in static friction as a result of time. Described as the  increase in true surface area between microscopic asperities over time due to constant application of normal force.
+The Stribeck Effect suggests that static friction does not instantaneously jump to kinetic/viscour friction but happens gradually. The rate of friction mode change depends much on material properties and in particular, we expect sharper jumps to exhibit superior drag-clicking capabilities. This means to comprehend this we cannot use coulomb friction's model as it does not consider friction as a function of velocity and is problematic because it allows the following interpretation:
+\par
+    Suppose the case where the applied force $F_{A} = 2N$ is less than maximum static friction $F_{S\_max} = 4N$, the opposite force currently would be 2N and the net force $F_{net} = F_{A} - F_{S} = 0$ would result in no motion.
+\par
+    According to the coulomb's model, the instant at which the applied force $F_{A} > F_{S}$ the system will shift into kinetic friction. For the instance that $F_{A} = 4N$ increases to $F_{A} = 4.01N$, it shifts immediately to kinetic friction, which is lower than static friction. If kinetic friction $F_{k} = 2N$ then the net force increases from $F_{net} = F_{A} - F_{S\_max} = 0$ for $F_{A} = 4N$ to $F_{net} = F_{A} - F_{k} = 4.01 - 2 = 2.01N$ for $F_{A} = 4.01N$ despite the tiny change in applied force.
+    However, in real life, it is not possible because some guys did a research and tried to immediately change the force from 4.01 to 2.01N during the transition to kinetic friction and was able to achieve a net force of 0.01N which suggests the transition is not an immediate process.
+\paragraph{The reason} why a steeper slope would be more desired for drag clicking is contrasted between the two cases below:
+    If the jump between static friction and kinetic friction were more steep (such as the optimal case of coulomb friction), then the increase in net force would be more drastic and this drastic change allows the finger to experience instant acceleration which leads to the illusion of it clicking and having swung forward to the next cycle. 
+    However, if the transition were less instant, for example when applied force was 4.01N and after 10 microseconds the finger has accelerated to a velocity of 50cm/s and at that velocity the friction is 3N, we would have a net force of 1.01N rather than the optimal case described in the coulomb friction (of which more closely resembles the desired steep curve).
 
-    
 
 
 \subsection{State Space Equations}
-To coherently account for behaviour involving state changes, we must shift to dynamic models that uses state space equations. Most namely, the Dahl Model and LuGre Model
+To coherently account for behaviour involving state changes such as from the state of sticking to slipping, we must shift to dynamic models that uses state space equations\parencite{youtube:sseq}. Most namely, the Dahl Model and LuGre Model
 In state space equations, there exists "state variables" that capture internal states of the system, when there is more than one, it is packaged into a vector matrix. In state space equations, the derivative of state variable is a function of state variables, in which integrating them over a tiny unit of time gives us the state at the next instant\parencite{youtube:sseq}. As a result it gives us a prediction of the current state (current position, force, etc.) successively to give a sequential account of the simulated process. And looking at the relationship between variables in a state space equation can describe the stability of a system \parencite{youtube:sseq}, which is particularly useful in stick--slip motion.
 
 % Maybe include equations for better understanding? wait, do they even care?

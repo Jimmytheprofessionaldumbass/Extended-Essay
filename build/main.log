@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  2 OCT 2026 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  3 OCT 2026 20:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -701,82 +701,68 @@ Package caption Info: End \AtBeginDocument code.
  [1
 
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<images/coulomb graph.png, id=12, 693.59125pt x 549.05125pt>
-File: images/coulomb graph.png Graphic file (type png)
-<use images/coulomb graph.png>
-Package pdftex.def Info: images/coulomb graph.png  used on input line 51.
-(pdftex.def)             Requested size: 172.99498pt x 136.9441pt.
+<images/spring mass system.png, id=14, 1276.77pt x 538.01pt>
+File: images/spring mass system.png Graphic file (type png)
+<use images/spring mass system.png>
+Package pdftex.def Info: images/spring mass system.png  used on input line 40.
+(pdftex.def)             Requested size: 318.66948pt x 134.28052pt.
 
 
-Package wrapfig Warning: Collision between wrapping environments on input line 57.
+Package caption Warning: \label without proper reference on input line 62.
+See the caption package documentation for explanation.
 
-<images/asperities illustration.png, id=13, 3228.06pt x 1951.29pt>
+
+LaTeX Warning: Reference `??' on page 2 undefined on input line 65.
+
+<images/asperities illustration.png, id=15, 3228.06pt x 1951.29pt>
 File: images/asperities illustration.png Graphic file (type png)
 <use images/asperities illustration.png>
-Package pdftex.def Info: images/asperities illustration.png  used on input line 59.
+Package pdftex.def Info: images/asperities illustration.png  used on input line 76.
 (pdftex.def)             Requested size: 182.09486pt x 110.04562pt.
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 64.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 67.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 68.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 69.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 70.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 73.
-
-<images/viscous friction.png, id=15, 676.5275pt x 556.0775pt>
+[2 <./images/spring mass system.png (PNG copy)> <./images/asperities illustration.png>]
+<images/viscous friction.png, id=21, 676.5275pt x 556.0775pt>
 File: images/viscous friction.png Graphic file (type png)
 <use images/viscous friction.png>
-Package pdftex.def Info: images/viscous friction.png  used on input line 77.
+Package pdftex.def Info: images/viscous friction.png  used on input line 94.
 (pdftex.def)             Requested size: 77.84721pt x 63.98575pt.
-<images/static friction graph.png, id=16, 682.55pt x 545.03625pt>
+<images/static friction graph.png, id=22, 682.55pt x 545.03625pt>
 File: images/static friction graph.png Graphic file (type png)
 <use images/static friction graph.png>
-Package pdftex.def Info: images/static friction graph.png  used on input line 83.
+Package pdftex.def Info: images/static friction graph.png  used on input line 100.
 (pdftex.def)             Requested size: 77.84721pt x 62.15807pt.
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 89.
-
-[2 <./images/coulomb graph.png> <./images/viscous friction.png> <./images/static friction graph.png>]
-
-LaTeX Warning: Reference `fig:' on page 3 undefined on input line 98.
-
-<images/bristles.png, id=21, 559.08875pt x 373.395pt>
+<images/treadmill.png, id=23, 903.375pt x 903.375pt>
+File: images/treadmill.png Graphic file (type png)
+<use images/treadmill.png>
+Package pdftex.def Info: images/treadmill.png  used on input line 112.
+(pdftex.def)             Requested size: 318.66948pt x 318.66718pt.
+ [3 <./images/viscous friction.png> <./images/static friction graph.png>] [4 <./images/treadmill.png>]
+<images/bristles.png, id=33, 559.08875pt x 373.395pt>
 File: images/bristles.png Graphic file (type png)
 <use images/bristles.png>
-Package pdftex.def Info: images/bristles.png  used on input line 118.
+Package pdftex.def Info: images/bristles.png  used on input line 145.
 (pdftex.def)             Requested size: 341.43307pt x 228.0384pt.
-[3 <./images/asperities illustration.png>] [4 <./images/bristles.png>]
-<images/sscurve.png, id=40, 608.5134pt x 462.528pt>
+ [5 <./images/bristles.png>]
+<images/sscurve.png, id=45, 608.5134pt x 462.528pt>
 File: images/sscurve.png Graphic file (type png)
 <use images/sscurve.png>
-Package pdftex.def Info: images/sscurve.png  used on input line 162.
+Package pdftex.def Info: images/sscurve.png  used on input line 189.
 (pdftex.def)             Requested size: 318.66948pt x 242.21681pt.
- [5 <./images/sscurve.png>] [6]
-<images/setup.png, id=48, 862.22125pt x 569.12625pt>
+ [6 <./images/sscurve.png>] [7]
+<images/setup.png, id=54, 862.22125pt x 569.12625pt>
 File: images/setup.png Graphic file (type png)
 <use images/setup.png>
-Package pdftex.def Info: images/setup.png  used on input line 273.
+Package pdftex.def Info: images/setup.png  used on input line 300.
 (pdftex.def)             Requested size: 318.66948pt x 210.33894pt.
- [7 <./images/setup.png>]
+ [8 <./images/setup.png>]
 
-LaTeX Warning: Float too large for page by 0.78746pt on input line 486.
+LaTeX Warning: Float too large for page by 0.78746pt on input line 513.
 
-[8] [9] [10] [11] [12]
-Overfull \hbox (3.49924pt too wide) in paragraph at lines 682--682
+[9] [10] [11] [12] [13]
+Overfull \hbox (3.49924pt too wide) in paragraph at lines 709--709
 []\OT1/cmr/m/n/12 Karl Jo-hanas-trom and Car-los Canudas-de-Wit. ``Re-vis-it-ing the Lu-Gre fric-tion model''.
  []
 
-[13] (build/main.aux)
+[14] (build/main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
@@ -790,18 +776,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23038 strings out of 467168
- 463046 string characters out of 5409468
- 1318329 words of memory out of 5000000
- 51989 multiletter control sequences out of 15000+600000
+ 23066 strings out of 467168
+ 463702 string characters out of 5409468
+ 1318397 words of memory out of 5000000
+ 52017 multiletter control sequences out of 15000+600000
  634519 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,19n,104p,1097b,1506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,19n,104p,1097b,1503s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on build/main.pdf (13 pages, 1580072 bytes).
+Output written on build/main.pdf (14 pages, 1838015 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 167 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
