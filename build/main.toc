@@ -3,7 +3,7 @@
 \contentsline {subsection}{\numberline {2.1}Friction Phenomena}{3}{}%
 \contentsline {subsubsection}{\numberline {2.1.1}Viscous Friction}{3}{}%
 \contentsline {subsubsection}{\numberline {2.1.2}Static Friction}{3}{}%
-\contentsline {subsubsection}{\numberline {2.1.3}The Stribeck Effect}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}The Stribeck Effect}{4}{}%
 \contentsline {paragraph}{The reason}{4}{}%
 \contentsline {subsection}{\numberline {2.2}State Space Equations}{4}{}%
 \contentsline {paragraph}{In state space equations,}{5}{}%
