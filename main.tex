@@ -42,7 +42,14 @@
     \label{fig:spring mass}
 \end{figure}
 
-    It is a topic fixated by engineers in trying to reduce, common solutions include adding grease, oil, etc. However, in the realm of competitive Minecraft, there exists many instances where the desirable effect of clicking fast can be applied by exploitation of slip stick atop the mouse. This is referred to in the community as “drag clicking”. 
+    It is a topic fixated by engineers in trying to reduce, common solutions include adding grease, oil, etc. However, in the realm of competitive Minecraft, there exists many instances where the desirable effect of clicking fast can be applied by exploitation of slip stick atop the mouse. This is referred to in the community as “drag clicking”.
+    Particularly, the process of drag clicking works as following:
+\begin{enumerate}
+    \item You have your finger press down at the mouse but not clicking it because your force is not enough to overcome the static frictional force. This is will be regarded as the "stick phase"
+    \item After applying enough force, your finger overcomes the static frictional force. As a result of the increase in net force and you overcome the static frictional force, your finger increasese in momentum as a result of the equation $J=F\delta t$ in the formula booklet, and as a result, this sudden increase in momentum allows for you to both click the mouse and swings in the air and moves forward by a tiny amount. This phase is seen as the "slip" phase.
+    \item Your finger lands back on the mouse and reaches static friction once again, back to the beginning of the cycle
+
+\end{enumerate}
 
     In this paper, we will investigate how different materials with different LuGre parameters can affect properties of slip stick friction between finger and surfaces. Such properties include cycle frequency, critical force to enter slip-stick oscillations, as well as other observations of interest.
 
@@ -125,9 +132,10 @@ The Stribeck Effect suggests that static friction does not instantaneously jump 
     According to the coulomb's model, the instant at which the applied force $F_{A} > F_{S}$ the system will shift into kinetic friction. For the instance that $F_{A} = 4N$ increases to $F_{A} = 4.01N$, it shifts immediately to kinetic friction, which is lower than static friction. If kinetic friction $F_{k} = 2N$ then the net force increases from $F_{net} = F_{A} - F_{S\_max} = 0$ for $F_{A} = 4N$ to $F_{net} = F_{A} - F_{k} = 4.01 - 2 = 2.01N$ for $F_{A} = 4.01N$ despite the tiny change in applied force.
     However, in real life, it is not possible because some guys did a research and tried to immediately change the force from 4.01 to 2.01N during the transition to kinetic friction and was able to achieve a net force of 0.01N which suggests the transition is not an immediate process.
 \paragraph{The reason} why a steeper slope would be more desired for drag clicking is contrasted between the two cases below:
-    If the jump between static friction and kinetic friction were more steep (such as the optimal case of coulomb friction), then the increase in net force would be more drastic and this drastic change allows the finger to experience instant acceleration which leads to the illusion of it clicking and having swung forward to the next cycle. 
+If the jump between static friction and kinetic friction were more steep (such as the optimal case of coulomb friction), then the increase in net force would be more drastic and this drastic change allows the finger to experience instant acceleration upon release, giving the finger enough momentum to click and swing forward to the next cycle.  
     However, if the transition were less instant, for example when applied force was 4.01N and after 10 microseconds the finger has accelerated to a velocity of 50cm/s and at that velocity the friction is 3N, we would have a net force of 1.01N rather than the optimal case described in the coulomb friction (of which more closely resembles the desired steep curve).
-
+    This is supported by \parencite{woodhouse2025rosin} as violin rosin is known for its effective slip stick properties. This research discovered a large difference between kinetic coefficient of frictionand static coefficient of friction, suggesting that a large difference between kinetic and static coefficients is the cause for better slip stick properties rather than a simple increase in both coefficients.
+    Conversely, \parencite{lian2021transition} states that oil reduces the difference between static and kinetic friction, and reduce or eliminates slip-stick friction.
 
 
 \subsection{State Space Equations}
@@ -186,14 +194,14 @@ Since state space equations are more concerned with the change in state variable
 \end{align}
 
 \noindent
-and to put the actual current force state back into this derivative function (since state space equations depend on previous states), we rearrange eq (1) to isolate $e^{-\frac{\sigma_{0}|x|}{F_{c}}}$ like such:
+now we must put the current force state back into this derivative function, because state space equations depend on previous states as they are are history-dependent models, in this case the current friction depends on previous friction, wait, aren't we talking about presliding displacements to be the thing that is supposed to be derived, why are we particularly putting friction back, we rearrange eq (1) to isolate $e^{-\frac{\sigma_{0}|x|}{F_{c}}}$ like such:
 
 \begin{align}
     F&=F_{c}\left(1-e^{-\frac{ \sigma_{0}|x| }{ F_{c} }}\right)\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right) \\
     \frac{F}{F_{c}} \mathrm{sgn}\left(\frac{\diff x}{\diff t}\right) &= 1-e^{-\frac{\sigma_{0}|x|}{F_{c}}} \\
     e^{-\frac{\sigma_{0}|x|}{F_{c}}} &= 1 - \frac{F}{F_{c}} \mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)
 \end{align}
-and putting it back in the differential equation we get:
+and putting it back in the differential equation $\frac{\diff F}{\diff x} = \sigma_{0}e^{-\frac{\sigma_{0}|x|}{F_{c}}}\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)\mathrm{sgn}\left(x\right)$ we get:
 
 \begin{align}
     \frac{\diff F}{\diff x} &= \sigma_{0}\left(1-\frac{F}{F_{c}}\right)\cancel{\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right)^{2}}\mathrm{sgn}\left(x\right) \\
@@ -231,7 +239,7 @@ Most importantly the Dahl Model introduces $z=\frac{F}{\sigma_{0}}$ as a state v
 \end{equation}
 similarly, in Hooke's law presented in the Physics formula booklet:
 \begin{equation}
-    F = kx
+    F = -kx
 \end{equation}
 Differentiating $z=\frac{1}{\sigma_{0}}\cdot F$ to find the state equation:
 \begin{align}
@@ -254,7 +262,19 @@ now with $F=\sigma_{0}z$ and $sgn(v)v=|v|$ we arrive at the definitive Dahl's mo
 % The labeled "elastic region" could be viewed as the predisplacement present in static friction before reaching the "plastic region" that is when it reaches coulomb friction.
 
 \subsection{Lugre Model}
-The Lugre model takes in consideration that coulomb friction is not constant but rather dependent of velocity, thereby replacing it with $g(v)=F_{c}+\left(F_{s}-F_{c}\right)e^{-|\frac{v}{v_{s}}|^{\alpha}}$ that considers the rate of change from $F_{s}$ to $F_{c}$ to be non-instantaneous as shown in figure \ref{fig:g(v)}
+The Lugre model takes in consideration that the maximum friction boundry ($F_{c}$ in the Dahl model) is not constant but rather a function of velocity, thereby replacing $F_{c}$ in the Dahl model with
+
+\begin{equation}
+    g(v)=F_{c}+\left(F_{s}-F_{c}\right)e^{-|\frac{v}{v_{s}}|^{\alpha}}
+\end{equation}
+Where 
+
+\begin{itemize}
+    \item $F_{s}$ is the static friction variable. This represents the maximum possible friction.
+    \item $V_{s}$ is a parameter that describes 
+\end{itemize}
+that considers the rate of change from $F_{s}$ to $F_{c}$ to be non-instantaneous as shown in figure \ref{fig:g(v)}
+
 \begin{figure}[htbp]
     \center
     \begin{tikzpicture}[scale=1.2]
@@ -290,25 +310,32 @@ The Lugre model takes in consideration that coulomb friction is not constant but
         \node at (3,-0.45) {$(a)$};
 
     \end{tikzpicture}
-    \caption{Graph of $g(v)$ with relative $F_{s}$ and $F_{c}$ coordinates}
+    \caption{Graph of $g(v)$ with relative $F_{s}$ and $F_{c}$ equations}
     \label{fig:g(v)}
 \end{figure}
-
-to create the following differential equation:
-% \begin{equation}
-%
-% \end{equation}
-
 
 
 \section{Experiment}
 
 \subsection{Drag clicking specific methods}
-There exists several known methods in the community to increase the accessibility of drag clicking on a mouse. With any youtube search you will find it populated with applying "tape" to your mouse, along with sharpie markers applied to that, then the mention of keeping your hands dry. In private I have discovered several new methods to increase friction, along with additive methods, I have discovered subtractive methods. Additive methods include rubbing crushed cello rosin dust onto the surface of the mouse with your finger, it was meant toadjunct slip stick properties of stringed instruments, though the effect is universal. Subtractive include rubbing the surface of your mouse with the bottom of your mousepad firmly, or with the leaf of a well hydrated plant. We will measure the rate at which static friction equalizes to coulomb friction with respect to time 
+There exists several known methods in the competitive minecraft community to increase the accessibility of drag clicking on a mouse. Guides on youtube on achieving drag clicking are often populated methods such as applying "tape" to your mouse \parencite{dernoze_dragclick}, some additionally suggest sharpie markers filling the surface of the tape or the mouse\parencite{deznore_dragclick}, then the mention of keeping your hands dry to ensure consistency. Several other methods were discovered with potential to achieve drag clicking. Additive methods refer to the deposition of material while subtractive likely refers to the removal of material. This is important because it helps isolate the cause of drag clicking, demonstrated below 
+\begin{itemize}
+    \item Additive methods
+        \begin{itemize}
+            \item Rubbing grinded cello rosin dust onto the surface of the mouse with your finger. Rosin is known to increase slip stick properties between a stringed instrument and a bow. From the perspective of additive, it is perceived as augumenting friction as a result of depositing a material known with a large difference between static and kinetic coefficients of friction \parencite{woodhouse2025rosin}. % The fact that it is impossible to enter kinetic friction in the experiments suggest that adding a material with stronger potentials for slip stick is more effective than removing material that hinder it, for instance in the PC plastic case where its surface oil and the finger's sebum were removed with ethanol, it was relatively easy to enter either static or kinetic friction but much more difficult in sustaining the cycle between smaller distances.
+            \item Filling the surface of the mouse/tape with a sharpie. The reason this works is likely because Sharpie markers are alcolhol based \parencite{sharpie_faq}, and since alcolhol dissolves oil \parencite{saintleger1985sebum,bommannan1991ethanol} and lipids of palmer surfaces that reduces the difference between kinietic and static friction coefficient, effectively increasing the difference between kinetic and static friction.
+            \item Placing electrical tape on the mouse with the non-sticky surface to be in contact with the finger. This replaces the rigid plastic surface of the mouse with a more elastically compliant surface, allowing for deformations for building up force before the slip happens, and since it is more elastically compliant, it is easier for to reset back to stick as it becomes easier for the surface to catch the finger upon landing back on the mouse surface after slip.
+        \end{itemize}
+    \item Subtractive methods
+        \begin{itemize}
+            \item Rubbing the surface of the mouse with a plant leaf. This likely works due to the oil absorbant nature of plants' leaves \parencite{gorb2017oil}\parencite{ghalia2026posidonia}, removing the reduction of the difference between kinetic and static friction, more easily allowing for drag clicking.
+            \item Rubbing the surface of the mouse with the bottom of a mouse pad. This is likely due to the same phenomenon for subtractive methods as mentioned for the plant leaf method of removing excess oil to increase difference between kinetic and static friction.
+        \end{itemize}
+\end{itemize}
 
 \subsection{Research Hypothesis and Variables}
-    The difference between Coulomb friction and static friction changes depending on material surface. This investigation aims to determine how material surface affects the difference between coulomb and static coefficient of friction.
-    It is hypothesized that Cello rosin will have the largest change due to its sticky nature, and clear PC plastic is expected with the least coefficient of friction as the surface is factory new surface polished
+    The difference between kinetic and static friction changes depending on material surface. This investigation aims to determine how material surface affects the difference between kinetic and static coefficient of friction.
+    It is hypothesized that Cello rosin will have the largest change due to its sticky nature, and clear PC plastic is expected with the smallest change in coefficient of friction between kinetic and static due to the earlier mentioned argument contrasting the rigid plastic surface of a mouse with the elastically compliant surface of the electrical tape.
     The independent variables are clear pc, cello rosin, and sharpie while the independent variable is the difference between static and coulomb coefficient of friction.
 
 \subsection{Method}
@@ -323,7 +350,14 @@ The static and kinetic friction will be found by measuring steady friction force
     \label{fig:setup}
 \end{figure}
 
-A finger sits on a scale while taped to a string horizontally, which passes through a pulley upwards connecting to force gauge with a force exerted by a motor (Vex V5 Smart Motor 11W). The reason it is upwards is because if it were downwards, the weight of the force gauge would inherently exert a force due to gravity despite no applied force from the motor pulling it down and still displaying zero.
+\begin{figure}[htbp]
+    \center
+    \includegraphics[width=.7\textwidth]{setup irl}
+    \caption{An image of the experimental setup}
+    \label{fig:irlsetup}
+\end{figure}
+
+A finger sits on a scale while taped to a string horizontally, which passes through a pulley upwards connecting to force gauge with a force exerted by a motor (Vex V5 Smart Motor 11W). The reason it is upwards is because if it were downwards, the weight of the force gauge would inherently exert a force due to gravity despite no applied force from the motor pulling it down and still displaying zero. One consideration to take in account is the finger used for the experiment. \parencite{Tomlinson2009} suggests that upon repeated testings that the middle finger of the writing hand is most reliable in applying consistent normal force for a similar setup.
 
 The experimental procedure upon procuring this setup is:
 \begin{enumerate}
@@ -331,7 +365,8 @@ The experimental procedure upon procuring this setup is:
     \item Clean the finger with alcolhol, or reapply rosin, again sharpie is neglected
     \item Tare the scale and while at null force, tare the force gauge
     \item Insert the string into the pulley
-    \item Place finger onto the scale
+    \item Tape finger onto strting
+    \item Place finger on the scale with no tangential force, though normal force is fine
     \item While recording slow motion, ensure visibility:
     \begin{enumerate}
         \item Finger state (slip/stick)
@@ -339,12 +374,12 @@ The experimental procedure upon procuring this setup is:
         \item Scale value
     \end{enumerate}
     \item Start the motor
-    \item repeat steps 1-8 3 trials
+    \item repeat steps 1-8 3 trialsa
     \item repeat for different materials
 \end{enumerate}
 
 \section{Results and Discussion}
-
+\subsection{Quantitative}
 \begin{table}
     \footnotesize
     \caption{PC Board}
@@ -458,7 +493,7 @@ The experimental procedure upon procuring this setup is:
                 & 337.5         &           \\
                 & 349           &           \\
                 & 347.5         &           \\
-                & 349.5         &           \\
+                & 349.5         &           \\a
                 & 362.5         &           \\
                 & 366           &           \\
                 & 363.5         &           \\
@@ -696,16 +731,24 @@ The experimental procedure upon procuring this setup is:
     \end{tabular}
 \end{table}
 
+The quantitative data has columns:
+
+\begin{itemize}
+    \item $F_{N}$ represents the normal force 
+\end{itemize}
+
 \subsection{Observations}
 The electrical tape was unable to enter kinetic friction, this is likely due to the fact that that the $\alpha$ in the lugre model is too large, meaning the transition to coulomb friction was too rapid (i.e. any increase in velocity resulted in a rapid decrease of frictional force to keep from sliding). It could be possible for the finger to indeed be in motion, except that the velocity is close to zero, explaining the seeming impossibility of reaching visible coulomb friction. Since the tape is viscoelastic, it has a strong elastic spring property, that like described in figure \ref{fig:sscurve}, the resultant frictional force is directly proportional to displacement, of which is a result of applied force, which explains the difficulty in achieving kinetic friction, and once the applied force reaches the breaking point, it slips. the addition of the elasticity of the finger introduces additional difficulty in reaching kinetic coulomb friction since elastic on elastic contact gives extra opportunity for the reaction force to reflect the applied force.
 
 For finger systems, it could be suggested that a modified lugre model should be used in which the $\sigma_{0}$ in $z=\frac{F}{\sigma_{0}}$ reflects the spring constant of a finger rather than microscopic bristles.
 
-The trials of rosin exhibited slip stick of short slip distance before immediately sticking and slipping again. This could be a result of the material being non-viscoelastic, as such, the friction did not have the double spring effect, otherwise it would have doubled the spring of finger and material's displacement before finally being able to slip. Instead, it immediately jumped to coulomb in the case of sufficient applied force. This would be the result of a high $\alpha$ in lugre model's variation of coulomb friction as a result of velocity described in g(v). And this could be a result of particulate friction that has not been looked into in this research, but the stickiness of rosin dust on the finger could be responsible for replacing the skin sebum from contacting the surface of the rosin on the pc board, and instead change into rosin on rosin contact.
+The trials of rosin exhibited slip stick of short slip distance before immediately sticking and slipping again. This could be a result of the material being non-viscoelastic, as such, the friction did not have the double spring effect, otherwise it would have doubled the spring of finger and material's displacement before finally being able to slip. Instead, it immediately jumped to coulomb in the case of sufficient applied force. This would be the result of a high $\alpha$ in lugre model's variation of coulomb friction as a result of velocity described in g(v). And this could be a result of particulate friction that has not been looked into in this research, but the stickiness of rosin dust on the finger could be responsible for replacing the skin sebum from contacting the surface of the rosin on the pc board, and instead change into rosin on rosin contact. The fact that it is impossible to enter kinetic friction in the experiments suggest that adding a material with stronger potentials for slip stick is more effective than removing material that hinder it, for instance in the PC plastic case where its surface oil and the finger's sebum were removed with ethanol, it was relatively easy to enter either static or kinetic friction but much more difficult in sustaining the cycle between smaller distances.
 
 \subsection{Limitations of the data}
 The force sensor used was for measuring masses and would stop updating when no change is detected. This significantly impacted the accuracy of the data. Further improvement in methodology could involve high frequency force meter and scale that directly ouput into computer for high frequency data collection, in particular a computer with high monitor refreshrate and subsequently a better slow motion camera can capture much more details entailing the phases of stick slip behavior.
 Another limitation is the subject's muscle contraction when reseting, it is possible that force is applied prior to place the finger at the end for the string to not fall out of the pulley. It is also possible for the subject to unintentionally produce opposite force in the same direction of the frictional force to maximize slip stick behavior. Perhaps a future experiment with a moving surface rather than a moving finger would be used instead similar to \cite{p:ssf}
+
+Another systemic error arises from the lack of consideration of the string sag, because the string itself has mass, and the forces measured were small, the string could impose unwanted forces. \parencite{huang2021cabledriven} suggests that this error is not a fixed additive constant, instead it is represented by the equation $F_{measured} = T \cos \theta$ where $\theta$ is the "misalignment between the load-cell axis and the cable". Due to a lack of time, this system was not implemented to fix it.
 
 
 % Overall comments (Giulian): 
