@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1791029946.75681 "build/main.bcf" "build/main.bbl" "build/main" 1791029949.4975 0
-  "build/main.bcf" 1791029949.43994 109582 bc3515d873999de0bad5fa5295c4c1ea "pdflatex"
-  "works cited.bib" 1790647124.05306 2239 3c3e2adb49a6dd6c46e656d10d1a8d08 ""
+["biber build/main"] 1791104586.57525 "build/main.bcf" "build/main.bbl" "build/main" 1791109446.44266 0
+  "build/main.bcf" 1791109446.38834 109642 f37aab5808a8cc3ca7be7f7b8a024629 "pdflatex"
+  "works cited.bib" 1791104506.90623 3609 2eb1610891ec0c512a24e6ebf73be699 ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1791029947.52914 "main.tex" "build/main.pdf" "main" 1791029949.49778 0
+["pdflatex"] 1791109444.52434 "main.tex" "build/main.pdf" "main" 1791109446.44288 0
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -163,19 +163,19 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1784093434 5573038 ad3e0d8c63dbec7957113a2386d66888 ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1784093553 3656514 889b8b44a344219536a46a4152832c47 ""
   "/usr/local/texlive/2026/texmf.cnf" 1784093428.67125 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "build/main.aux" 1791029949.43782 5781 6a3f5b89b9ab7b28287c92f9fb1443a2 "pdflatex"
-  "build/main.bbl" 1791029947.50477 10786 21c38c9169013e5b67efbd3163c24962 "biber build/main"
-  "build/main.run.xml" 1791029949.44107 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
-  "build/main.toc" 1791029949.44107 1145 ddcd5310efbff9b9382070a4cd267fbd "pdflatex"
+  "build/main.aux" 1791109446.38734 5930 5711b06dcd65acfed5a43b0473ec2619 "pdflatex"
+  "build/main.bbl" 1791104587.27841 10786 21c38c9169013e5b67efbd3163c24962 "biber build/main"
+  "build/main.run.xml" 1791109446.38905 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
+  "build/main.toc" 1791109446.38905 1204 034c88487cb4f7b8838b2f7b57bb69a7 "pdflatex"
   "images/asperities illustration.png" 1790597042.40671 292164 6d29654b6b9d90caf4a8647b39e2584d ""
   "images/bristles.png" 1790398388.11522 830719 c5c29b2da4b809fd9a902a86766863e5 ""
   "images/setup.png" 1790398388.11622 68612 ebe8875706072ba093372c20b110e2c3 ""
-  "images/spring mass system.png" 1791023017.97744 25263 66f314c55aa8cec85db64cb2daa2c669 ""
+  "images/spring mass system.png" 1791030649.03174 25263 66f314c55aa8cec85db64cb2daa2c669 ""
   "images/sscurve.png" 1790398388.13022 19432685 f8e65a923308c329f2d40f647cc0b93f ""
   "images/static friction graph.png" 1790398388.13022 11302 62e0e7dbe882cd8ef043c87ecf40bdfa ""
-  "images/treadmill.png" 1791024574.34051 432128 a9c902ba24675f3a3cd970f748fcdf19 ""
+  "images/treadmill.png" 1791030649.03274 432128 a9c902ba24675f3a3cd970f748fcdf19 ""
   "images/viscous friction.png" 1790398388.13622 11372 e96c2d65d53c361ab70edddfed72c4ba ""
-  "main.tex" 1791029943.90267 38354 98aa932c7238fea965b5b6a08567fa98 ""
+  "main.tex" 1791109442.93733 39502 01a28951dd2d7f8d0bc75fbd1cdea312 ""
   (generated)
   "build/main.aux"
   "build/main.bcf"

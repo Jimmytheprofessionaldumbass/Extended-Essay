@@ -131,8 +131,25 @@ The Stribeck Effect suggests that static friction does not instantaneously jump 
 
 
 \subsection{State Space Equations}
-To coherently account for behaviour involving state changes such as from the state of sticking to slipping, we must shift to dynamic models that uses state space equations\parencite{youtube:sseq}. Most namely, the Dahl Model and LuGre Model
-In state space equations, there exists "state variables" that capture internal states of the system, when there is more than one, it is packaged into a vector matrix. In state space equations, the derivative of state variable is a function of state variables, in which integrating them over a tiny unit of time gives us the state at the next instant\parencite{youtube:sseq}. As a result it gives us a prediction of the current state (current position, force, etc.) successively to give a sequential account of the simulated process. And looking at the relationship between variables in a state space equation can describe the stability of a system \parencite{youtube:sseq}, which is particularly useful in stick--slip motion.
+
+Consider the condition at which the same velocity and normal force results in different frictional forces \parencite{p:dm}. This is because of the dependence of friction on previous states.
+
+In particular, the LuGre and Dahl model visualizes friction as being caused by microscopic elastic bristles between surfaces (\ref{fig:bristles}). For instance, if the velocity and normal force be the same, having the bristles against the direction of motion would result in larger frictional force than if the bristles were aligned with the direction of motion. 
+
+The amount of displacement is represented by the state variable $z = \frac{F}{\sigma_{0}}$, where $\sigma_{0}$ is the stiffness of the bristles and, F is the frictional force. This can be perceived as analogous to the elastic force equation in $F_{H} = -kx$.
+
+To coherently account for behaviour involving state changes as a result of internal states, we must shift to dynamic models that uses state space equations as it accounts for hysteresis behaviour\parencite{youtube:sseq}.
+
+\paragraph{In state space equations,}the derivative of state variable is defined as a function of state variables, such as the LuGre model:
+\begin{equation}
+    \dot{z} = v - h\left(v\right)z
+\end{equation}
+which suggests that the rate of change of the bristle deflection is the difference between the velocity and the previous bristle deflection with regards to a function of velocity. Plugging in all known values and integrating this function over a tiny unit of time gives us the state at the next instant of the bristle deflection $z$\parencite{youtube:sseq}. Now that we have obtained both $\dot{z}$ and $z$ with a known $v$ we can plug into the second equation of the lugre model
+\begin{equation}
+    F = \sigma_{0}z+\sigma_{1}\dot{z} + f(v)
+\end{equation}
+
+As a result it gives us a prediction of the state successively to give a sequential account of the simulated process. And looking at the relationship between variables in a state space equation can describe the stability of a system \parencite{youtube:sseq}, which is particularly useful in stick--slip motion.
 
 % Maybe include equations for better understanding? wait, do they even care?
  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  3 OCT 2026 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  4 OCT 2026 18:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -739,26 +739,26 @@ Package pdftex.def Info: images/treadmill.png  used on input line 112.
 <images/bristles.png, id=33, 559.08875pt x 373.395pt>
 File: images/bristles.png Graphic file (type png)
 <use images/bristles.png>
-Package pdftex.def Info: images/bristles.png  used on input line 145.
+Package pdftex.def Info: images/bristles.png  used on input line 162.
 (pdftex.def)             Requested size: 341.43307pt x 228.0384pt.
- [5 <./images/bristles.png>]
-<images/sscurve.png, id=45, 608.5134pt x 462.528pt>
+ [5]
+<images/sscurve.png, id=44, 608.5134pt x 462.528pt>
 File: images/sscurve.png Graphic file (type png)
 <use images/sscurve.png>
-Package pdftex.def Info: images/sscurve.png  used on input line 189.
+Package pdftex.def Info: images/sscurve.png  used on input line 206.
 (pdftex.def)             Requested size: 318.66948pt x 242.21681pt.
- [6 <./images/sscurve.png>] [7]
+ [6 <./images/bristles.png>] [7 <./images/sscurve.png>]
 <images/setup.png, id=54, 862.22125pt x 569.12625pt>
 File: images/setup.png Graphic file (type png)
 <use images/setup.png>
-Package pdftex.def Info: images/setup.png  used on input line 300.
+Package pdftex.def Info: images/setup.png  used on input line 317.
 (pdftex.def)             Requested size: 318.66948pt x 210.33894pt.
- [8 <./images/setup.png>]
+ [8]
 
-LaTeX Warning: Float too large for page by 0.78746pt on input line 513.
+LaTeX Warning: Float too large for page by 0.78746pt on input line 530.
 
-[9] [10] [11] [12] [13]
-Overfull \hbox (3.49924pt too wide) in paragraph at lines 709--709
+[9 <./images/setup.png>] [10] [11] [12] [13]
+Overfull \hbox (3.49924pt too wide) in paragraph at lines 726--726
 []\OT1/cmr/m/n/12 Karl Jo-hanas-trom and Car-los Canudas-de-Wit. ``Re-vis-it-ing the Lu-Gre fric-tion model''.
  []
 
@@ -784,7 +784,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,19n,104p,1097b,1503s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on build/main.pdf (14 pages, 1838015 bytes).
+Output written on build/main.pdf (14 pages, 1839955 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream
