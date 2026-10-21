@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1792532716.73181 "build/main.bcf" "build/main.bbl" "build/main" 1792532821.03323 0
-  "build/main.bcf" 1792532820.92123 110515 8f4ffd5dc4e6eefa089b87f6b706c150 "pdflatex"
+["biber build/main"] 1792532716.73181 "build/main.bcf" "build/main.bbl" "build/main" 1792598728.52839 0
+  "build/main.bcf" 1792598728.42771 110515 8f4ffd5dc4e6eefa089b87f6b706c150 "pdflatex"
   "works cited.bib" 1791263137.74977 6508 13e8dd2914ca6c333acfbe5a1289025b ""
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1792532818.68721 "main.tex" "build/main.pdf" "main" 1792532821.03353 0
+["pdflatex"] 1792598726.16085 "main.tex" "build/main.pdf" "main" 1792598728.52864 0
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -165,10 +165,10 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1786347609 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1786347505 3636769 de43c7c004d607240510bdcfcd858e52 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "build/main.aux" 1792532820.91917 7757 fdef4d64dfb8ed0e676431dcfff31163 "pdflatex"
+  "build/main.aux" 1792598728.42572 7757 fdef4d64dfb8ed0e676431dcfff31163 "pdflatex"
   "build/main.bbl" 1792532747.35483 27807 68cf4aa1b1fa13cf93cef6f3c55a1999 "biber build/main"
-  "build/main.run.xml" 1792532820.92183 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
-  "build/main.toc" 1792532820.92189 1272 919e9fd93c95f7e22347e861110c988b "pdflatex"
+  "build/main.run.xml" 1792598728.42833 2306 e66e70998e32f1e04c7cf72f8b540613 "pdflatex"
+  "build/main.toc" 1792598728.42841 1272 919e9fd93c95f7e22347e861110c988b "pdflatex"
   "images/asperities illustration.png" 1790933619.02336 292164 6d29654b6b9d90caf4a8647b39e2584d ""
   "images/bristles.png" 1786370942.04906 830719 c5c29b2da4b809fd9a902a86766863e5 ""
   "images/setup irl.png" 1791263137.74443 1388407 7c7244453016fa7db6ef2a4c2828ab27 ""
@@ -176,7 +176,7 @@
   "images/spring mass system.png" 1791164601.78182 25263 66f314c55aa8cec85db64cb2daa2c669 ""
   "images/sscurve.png" 1786370942.08957 19432685 f8e65a923308c329f2d40f647cc0b93f ""
   "images/treadmill.png" 1791164601.78394 432128 a9c902ba24675f3a3cd970f748fcdf19 ""
-  "main.tex" 1792532798.2876 46244 004d8fe4b5eb412a96e5dbeface23672 ""
+  "main.tex" 1792598710.14076 46242 fb736cb2064abf7acfb52be9a94f1ce4 ""
   (generated)
   "build/main.aux"
   "build/main.bcf"
