@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# LaTeX intermediates (generated on every build — never merge these)
+*.aux
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.run.xml
+*.synctex.gz
+*.toc
+*-SAVE-ERROR
+pdflatex*.fls
+
+# Stray folders that belong to other projects
+physics_worksheet/
+memory/
