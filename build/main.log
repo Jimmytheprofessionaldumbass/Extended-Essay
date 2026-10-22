@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  5 OCT 2026 23:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.15)  6 OCT 2026 00:59
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -634,15 +634,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (build/main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                deznore_dragclick
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (build/main.bbl)
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
  (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -702,99 +694,83 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(build/main.toc)
+[1
+
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (build/main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [1
-
-{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<images/spring mass system.png, id=14, 1276.77pt x 538.01pt>
+ [2]
+<images/spring mass system.png, id=15, 1276.77pt x 538.01pt>
 File: images/spring mass system.png Graphic file (type png)
 <use images/spring mass system.png>
-Package pdftex.def Info: images/spring mass system.png  used on input line 40.
+Package pdftex.def Info: images/spring mass system.png  used on input line 41.
 (pdftex.def)             Requested size: 318.66948pt x 134.28052pt.
-
-
-Package caption Warning: \label without proper reference on input line 69.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `??' on page 2 undefined on input line 72.
-
-[2 <./images/spring mass system.png (PNG copy)>]
-<images/asperities illustration.png, id=18, 3228.06pt x 1951.29pt>
+ [3 <./images/spring mass system.png (PNG copy)>]
+<images/asperities illustration.png, id=21, 3228.06pt x 1951.29pt>
 File: images/asperities illustration.png Graphic file (type png)
 <use images/asperities illustration.png>
-Package pdftex.def Info: images/asperities illustration.png  used on input line 83.
+Package pdftex.def Info: images/asperities illustration.png  used on input line 85.
 (pdftex.def)             Requested size: 182.09486pt x 110.04562pt.
-<images/treadmill.png, id=20, 903.375pt x 903.375pt>
+<images/treadmill.png, id=23, 903.375pt x 903.375pt>
 File: images/treadmill.png Graphic file (type png)
 <use images/treadmill.png>
-Package pdftex.def Info: images/treadmill.png  used on input line 119.
+Package pdftex.def Info: images/treadmill.png  used on input line 121.
 (pdftex.def)             Requested size: 318.66948pt x 318.66718pt.
- [3 <./images/asperities illustration.png>] [4 <./images/treadmill.png>]
-<images/bristles.png, id=30, 559.08875pt x 373.395pt>
+ [4 <./images/asperities illustration.png>] [5 <./images/treadmill.png>]
+<images/bristles.png, id=33, 559.08875pt x 373.395pt>
 File: images/bristles.png Graphic file (type png)
 <use images/bristles.png>
-Package pdftex.def Info: images/bristles.png  used on input line 149.
+Package pdftex.def Info: images/bristles.png  used on input line 150.
 (pdftex.def)             Requested size: 341.43307pt x 228.0384pt.
- [5 <./images/bristles.png>] [6{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<images/sscurve.png, id=46, 608.5134pt x 462.528pt>
+ [6 <./images/bristles.png>] [7{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<images/sscurve.png, id=50, 608.5134pt x 462.528pt>
 File: images/sscurve.png Graphic file (type png)
 <use images/sscurve.png>
-Package pdftex.def Info: images/sscurve.png  used on input line 218.
+Package pdftex.def Info: images/sscurve.png  used on input line 219.
 (pdftex.def)             Requested size: 318.66948pt x 242.21681pt.
- [7 <./images/sscurve.png>]
-
-LaTeX Warning: Citation 'deznore_dragclick' on page 8 undefined on input line 321.
-
-[8] [9]
-<images/setup.png, id=58, 862.22125pt x 569.12625pt>
+ [8 <./images/sscurve.png>] [9] [10]
+<images/setup.png, id=61, 862.22125pt x 569.12625pt>
 File: images/setup.png Graphic file (type png)
 <use images/setup.png>
 Package pdftex.def Info: images/setup.png  used on input line 348.
 (pdftex.def)             Requested size: 318.66948pt x 210.33894pt.
-<images/setup irl.png, id=59, 770.88pt x 1370.11874pt>
+<images/setup irl.png, id=62, 770.88pt x 1370.11874pt>
 File: images/setup irl.png Graphic file (type png)
 <use images/setup irl.png>
 Package pdftex.def Info: images/setup irl.png  used on input line 355.
 (pdftex.def)             Requested size: 318.66948pt x 566.37262pt.
- [10 <./images/setup.png>] [11 <./images/setup irl.png (PNG copy)>]
+ [11 <./images/setup.png>] [12 <./images/setup irl.png (PNG copy)>]
 
-LaTeX Warning: Float too large for page by 0.78746pt on input line 569.
+LaTeX Warning: Float too large for page by 0.78746pt on input line 572.
 
-[12] [13] [14] [15] [16] [17]
-Overfull \hbox (9.37418pt too wide) in paragraph at lines 773--773
+[13] [14] [15] [16] [17] [18]
+Overfull \hbox (9.37418pt too wide) in paragraph at lines 786--786
 []\OT1/cmr/m/n/12 Karl Jo-hanas-trom and Car-los Canudas-de-Wit. ``Re-vis-it-ing the Lu-Gre fric-tion model''.
  []
 
-[18] [19] (build/main.aux)
+[19] [20] (build/main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23077 strings out of 467168
- 464531 string characters out of 5409468
- 1319016 words of memory out of 5000000
- 52026 multiletter control sequences out of 15000+600000
+ 23076 strings out of 467168
+ 464521 string characters out of 5409468
+ 1319024 words of memory out of 5000000
+ 52025 multiletter control sequences out of 15000+600000
  634556 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,104p,1353b,1503s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on build/main.pdf (19 pages, 3237985 bytes).
+Output written on build/main.pdf (20 pages, 3239989 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
+ 192 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
