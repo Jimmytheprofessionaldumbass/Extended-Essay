@@ -1,97 +1,124 @@
-# EE Reflective Statement — working draft skeleton (due 28 Oct)
+# EE Reflective Statement (RPF) — corrected structure, 2026-10-23
 
-**Status: skeleton only.** Everything below is drawn from *his own* `~/Extended-Essay/reflections`
-(5 paragraphs, last edited 28 Sep) plus the recorded deadline. No invented experiences, no invented
-dates. The voice is his; my job was to give the structure and point at which of his own words fill it.
+**Status: structure + content pointers. The prose is his.**
 
-**Requirements — VERIFIED against the official guide** (`~/Extended-Essay/Sources/extended-essay-first-assessment-2027-guide-sbs.pdf`, first assessment 2027, extracted 2026-10-21):
-
-- The reflective statement is **no more than 500 words** and is **included on the RPF** (the guide's name for
-  it in 2027 is the *reflection and progress form*; "RPPF" is the older name — use RPF).
-- There are **three mandatory reflection sessions**. **The third is the viva voce**, a concluding interview
-  that follows completion of the essay — and **his viva voce was Mon 19 Oct**, so that session has already
-  happened. The Oct 28 item is the written statement on the form.
-- Reflection is assessed under **criterion E**, whose grade descriptors reward a reflection that is
-  **evaluative, uses specific examples, and shows evidence of growth and transfer of learning** — not a
-  narrative of what was done.
-- Essay limit is 4,000 words (separate from the 500).
+**Everything here is verified against the official guide** — `~/Extended-Essay/Sources/extended-essay-first-assessment-2027-guide-sbs.pdf`, pp. 97–100, read directly on 2026-10-23.
 
 ---
 
-## Section 1 — Planning (≈150 words)
+## Correction to my earlier skeleton — it had the wrong shape
 
-Cover, in this order:
+My first version (2026-10-21) split the 500 words into three dated sections, one per reflection session.
+**That is not what the guide asks for.** Verbatim, p.100:
 
-1. **The narrowing move.** Start from the original broad question ("what factors affect drag
-   clicking") and show why it was rejected — his own words: it "would have resulted in a paper that
-   is essentially a compilation of all possible factors rather than a meaningful research".
-2. **The research-driven refocus.** Reading the Dahl, LuGre and Coulomb friction models to decide
-   which factor was even tractable is the key planning decision, and it is the one that shows
-   independent judgement.
-3. **The final question.** State it once, precisely (lugre/Dahl model parameters and their effect on
-   slip–stick friction between finger and surface).
+> "Your reflective thinking is recorded as a **500-word reflective statement, written at the end of the
+> extended essay process** and included on your RPF."
 
-*His sentence to lift:* "I did research regarding all possible factors that could have affected slip
-stick friction properties, mainly doing research and trying to understand the different friction
-models such as the dahl, lugre, and coulomb models."
+And on session attendance, p.98:
 
-**Placeholder to fill from the RPPF form:** the date of the first reflection session.
+> "Attendance at the three mandatory reflection sessions with your supervisor **must be recorded on the
+> RPF**."
 
----
+So there are **two separate things on the form**:
+1. **Attendance dates** for three sessions — a record, not prose. (Third = viva voce, 19 Oct.)
+2. **One continuous ≤500-word statement**, written at the end, drawing on all three sessions.
 
-## Section 2 — Mid-way (≈200 words)
-
-This is where the marks are, because it is about **responding to a problem**, not doing well.
-
-1. **The equipment failure.** The force sensor "will lock at a certain point when the same force is
-   applied over a period of time, which completely nullified all the data". Say plainly that the
-   first data set was unusable — reflective honesty scores, defensive spin does not.
-2. **What he did about it.** Researching an alternative (six-axis force sensors were too expensive;
-   the bearing-screw rig from another paper was too complex), then buying a better sensor. The
-   decision to name the constraint — cost — and work around it is the reflection.
-3. **The conceptual problem that survived the equipment.** A human finger is not a constant material:
-   its friction properties vary, so it is unclear whether Dahl/LuGre parameters should be measured
-   with a finger or with a block. His own ethanol experiment is evidence of this ("it somehow ended
-   up becoming less effective in drag clicking as time went on but that could have been due to many
-   factors that aren't very well isolated"). Admitting the confound is a strength here.
-4. **What survived.** The qualitative observation that the system can be forced out of dynamic
-   friction into slip–stick — data that does not depend on the broken sensor.
-
-**This section should not claim the new experiment produced results if it has not run yet.**
+Writing it as three mini-reflections would waste words on structure the form does not want.
 
 ---
 
-## Section 3 — Final (≈150 words) — this is the viva voce reflection
+## What criterion E actually asks — the guiding question
 
-**The viva already happened (19 Oct).** So this section is not a plan for the interview; it is the written
-reflection on it. Cover:
+Verbatim, p.100:
 
-1. **What the viva changed or confirmed.** Whichever it was, say it — a reflection that reports the
-   conversation went as expected is still a reflection if it names what was tested.
-2. **What changed in the writing.** Keeping the original experiment in the paper and adding the new one
-   alongside, rather than deleting the failure — explain why (the failed set documents the method problem
-   the new design solves).
-3. **What he would do differently.** His own line: "I should have looked a bit more into the
-   experiment and adapted my experiment into it" — i.e. read the method literature before building.
-4. **Transfer of learning** (criterion E explicitly looks for this): one sentence on what carries into
-   university work — e.g. that a research question is settled by what can be measured, not by what is
-   interesting.
+> "Examiners will assess your reflective statement using criterion E, which centres on the guiding question
+> **'Does the student evaluate the effect of the extended essay learning experience on them as a learner?'**"
+
+Two features examiners look for:
+
+- "Reflection … is consistently **evaluative** and includes **specific examples**."
+- "Reflection consistently shows evidence of the student's **growth and transfer of learning**."
+
+The guide then lists what evidence may be drawn from: *main ideas discussed in the viva voce · learning
+skills developed that could be used elsewhere · insights gained · changes in perspective · the impact of
+the choices made · experiences that could shape future thinking.*
+
+**Note what is absent from that list: a narrative of what was done.** A chronology of the experiment is not
+reflection. Every sentence should answer "what did this change in me as a learner", not "what happened".
 
 ---
 
-## Before he submits — checklist
+## Structure that fits the criterion (≈500 words, four moves)
 
-- [x] Word limit confirmed: **≤ 500 words**, on the RPF (verified in the guide, 2026-10-21).
-- [ ] Three reflection sessions with dates — the **third is the viva voce (19 Oct)**, so the form needs that
-      date, not a future one.
-- [ ] Every claim about what happened must be one he can defend if asked: "did the new sensor run?"
-- [ ] Do not state a conclusion the essay's data cannot support.
-- [ ] Submit through the same channel the supervisor used for the proposal (ManageBac — row
-      `memory/2026-09-24.md:397`, "EE Reflective Statement (DD)", 28 Oct).
+### 1. The narrowing decision — and what it taught about research (≈130 words)
 
-## Open questions for the supervisor
+His own material: the original question ("what factors affect drag clicking") was rejected because it
+"would have resulted in a paper that is essentially a compilation of all possible factors rather than a
+meaningful research". Reading Dahl, LuGre and Coulomb to find a tractable factor is the actual planning
+insight.
 
-1. Must the RPPF be one continuous statement, or three separate dated entries?
-2. Is it acceptable to include the failed first experiment in the essay, or should it be confined to
-   the reflection as a described setback?
-3. Does the mid-way reflection have to be dated before the new sensor experiment ran?
+**The evaluative turn** (this is what earns the mark): what he learned is that a research question is
+constrained by what can be *measured*, not by what is *interesting*. That is transferable to any future
+project.
+
+### 2. The failure — stated plainly, then evaluated (≈150 words)
+
+The force sensor "would stop updating when no change is detected", which "completely nullified all the
+data". Six-axis sensors were too expensive; the bearing-screw rig from the literature was too complex.
+
+**The evaluative turn:** the failure was not bad luck, it was a design decision made before reading the
+method literature — his own words: "I should have looked a bit more into the experiment and adapted my
+experiment into it". Naming that as *his* error rather than the equipment's is exactly what criterion E
+rewards.
+
+### 3. What survived, and what it revealed (≈120 words)
+
+Two things outlived the broken sensor: the qualitative observation that the system can be forced out of
+dynamic friction into slip–stick, and the discovery that a human finger is not a constant material — the
+ethanol test "didn't always result in the same effect … could have been due to many factors that aren't
+very well isolated".
+
+**The evaluative turn:** he now treats the finger itself as a variable to be controlled rather than a
+constant. That is a change in how he thinks about experimental design, not a finding.
+
+### 4. Transfer — the sentence the criterion explicitly asks for (≈100 words)
+
+One concrete, forward-looking statement: which skill from this process he will carry into university work.
+The honest candidate is the one in section 1 — designing around what is measurable — because he actually
+demonstrated learning it, having started with a question that was too broad.
+
+**Avoid** generic claims ("I learned time management"). They read as filler and the criterion asks for
+*specific examples*.
+
+---
+
+## Word budget
+
+| Move | Target | Running |
+|---|---|---|
+| 1. Narrowing decision | 130 | 130 |
+| 2. The failure, evaluated | 150 | 280 |
+| 3. What survived | 120 | 400 |
+| 4. Transfer | 100 | 500 |
+
+**Hard cap: 500 words.** The statement is submitted separately from the essay, so it does not affect the
+3,536-word essay count.
+
+---
+
+## Before submitting — checklist
+
+- [ ] **Attendance dates** for all three sessions ready for the form. Third = **viva voce, Mon 19 Oct 2026**.
+- [ ] Statement is **≤500 words**, continuous (not three separate entries).
+- [ ] Every paragraph has an **evaluative** sentence, not just description.
+- [ ] At least three **specific examples** (the rejected question, the frozen sensor, the ethanol confound).
+- [ ] One explicit **transfer** statement.
+- [ ] Nothing claims the new sensor experiment produced results — it has not run.
+- [ ] Submitted via the same channel as the proposal (ManageBac — `memory/2026-09-24.md:397`, 28 Oct).
+
+## Questions still genuinely open
+
+1. **What did the supervisor actually say at the viva on 19 Oct?** The guide says the viva is "an important
+   source of ideas for your reflective statement" and section 1's evaluative content should reflect it.
+   Only he knows what was discussed.
+2. **Dates of the first two reflection sessions** — the form needs them; nothing in the notes records them.
