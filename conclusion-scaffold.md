@@ -59,10 +59,12 @@ Do not repeat `Limitations of the data`; **use** it. One sentence of synthesis:
 
 ## Checks before this goes into `main.tex`
 
-- [ ] Word budget: ~329 words of draft prose above; current essay is **3,272 of 4,000**, so there is
-      room (see `tools/ee-wordcount.py`). Adding 329 → ~3,600, still under.
-- [ ] Resolve the **μ > 1** question first — if the 0.385267 sensor factor applies to one channel, the
-      Sharpie mean changes and paragraph 1's numbers change with it.
+- [ ] Word budget: ~329 words of draft prose above; current essay is **3,561 of 4,000**, so there is
+      room (see `tools/ee-wordcount.py`). Adding 329 → ~3,890, still under.
+- [x] **Resolve the μ > 1 question first** — *resolved 2026-10-24: it does not block this.* μ is a ratio,
+      so no positive rescaling can reorder the surfaces; the order is identical under all three readings of
+      the 0.385267 factor (see `reports/ee-calibration-2026-10-24.md`). Absolute values still need the
+      method caveat, the comparison does not. **Write paragraphs 1, 2 and 4 now.**
 - [ ] Check trial 3's last row (`F_fr` 715 → 165 with `F_N` unchanged) before quoting the Sharpie mean.
 - [ ] Decide the μ_s question: either add the static readings, or keep paragraph 2's honesty about it.
 - [ ] Then move the supervisor's `% Conclusion?` comment at line 759 out of the file.
