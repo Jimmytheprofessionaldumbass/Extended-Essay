@@ -8,7 +8,7 @@ Each one is checked below against the **current** file, not against the version 
 | 1 | "Methodology is well written, but of course data is still not in" | **Partly addressed** | `Results and Discussion → Quantitative` now holds measured tables (e.g. PC Board: 17 normal-force readings, F_fr = 70, μ_fr = 0.290). So data *is* in — but it is the **old sensor's** data, and the essay itself says that sensor "would stop updating when no change is detected". |
 | 2 | "Lugre model differential equation is not there" | **Addressed** | `main.tex:162–168` now carries both equations: `\dot{z} = v − h(v)z` and `F = σ₀z + σ₁\dot{z} + f(v)`, with a paragraph explaining them. |
 | 3 | "Some punctuation errors are present throughout the document, periods, etc" | **Closed mechanically 2026-10-24** | `tools/ee-punct-scan.py` run over the file; the 8 unambiguous findings fixed (`2fb200f`) — unbalanced parenthesis at line 89, lowercase sentence starts at 99/246/754, doubled words "are are" and "that that", missing full stop ending the Dahl paragraph. What remains is apostrophe rendering (informational, `’` is correct) and four paragraph-endings that are followed by lists or display equations, where a colon is right. |
-| 4 | "Conclusion?" | **NOT DONE — the biggest gap** | There is **no conclusion section at all**. The only occurrence of the word is inside his own comment at line 759. The essay ends at `Limitations of the data` and goes straight to the bibliography. |
+| 4 | "Conclusion?" | **Written — but incomplete (re-verified 2026-10-26)** | `main.tex:771` has a `\subsection{Conclusion}`, **144 words**. This row previously said "NOT DONE — there is no conclusion section at all"; that was true when the table was written on 21 Oct and has been **wrong since the section was added** — the file was never re-checked. What the section still lacks: it does not acknowledge that the measured ordering **reverses** the stated hypothesis (grep for hypothes/predict/contrary/reverse in the conclusion body → no match), and it contains no numeric result at all. Both are addressed in `RPF`-independent work: `reports/ee-surface-summary-2026-10-24.md`. |
 | 5 | "You mention a state space system with 'Vector' matrices … but no matrices are seen" | **Addressed (by removal)** | Zero occurrences of `matrix`/`bmatrix` in the file — the phrase is gone, so there is nothing to explain. |
 | 6 | "Coloring of that stress-strain diagram doesn't fit … black and white would look better" | **Open** | Cosmetic; the figure is `images/sscurve.png`. Would need the source `sscurve.xcf` (16 MB, in the EE folder) re-exported in greyscale. |
 | 7 | "Background Figure 1 could be clearer by making the curve another color" | **Open** | Cosmetic; it is a TikZ drawing, so a colour change is a one-line edit. |
@@ -20,8 +20,12 @@ Each one is checked below against the **current** file, not against the version 
 
 ## What actually blocks submission
 
-**Only two things:** the **missing conclusion** (#4) and the **data question** (#1 — whether the old-sensor
-tables stay as the results or the new experiment replaces them). Everything else is polish.
+**One thing:** the conclusion exists but does not carry its own result — no number, and no acknowledgement that
+the data reverse the hypothesis (#4). Everything else is polish or already closed.
+
+The **data question** (#1) is no longer a blocker: whether the old-sensor tables stay is settled by the fact
+that they are the only data, and the calibration factor cannot reorder the surfaces
+(`reports/ee-calibration-2026-10-24.md`).
 
 ## The conclusion — what criterion A/D asks for
 
@@ -39,9 +43,12 @@ limitations. So the conclusion needs to do four things, in this order:
    conclusion must use it rather than repeat it.
 4. **One sentence of forward transfer** — what a better instrument or a moving-surface design would settle.
 
-Suggested length: **200–300 words**, which fits inside the current headroom (3,272 of 4,000 used).
+Suggested length: the section is **144 words** today; adding the reversal acknowledgement and two numbers
+brings it to roughly 250. Current essay word count **3,561 of 4,000**, so 439 words of headroom
+(`tools/ee-wordcount.py`).
 
 ## Where I stop
 
-I have not written the conclusion or edited the figures — both are his content and his aesthetic call.
-This file is the checklist; the drafting is his.
+I have not rewritten the conclusion or edited the figures — both are his content and his aesthetic call.
+This file is the checklist; the drafting is his. **Re-verify this table against `main.tex` before trusting
+any row**: row 4 was stale for five days because it was written once and never re-checked.
