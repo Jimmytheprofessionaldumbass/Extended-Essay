@@ -14,7 +14,7 @@ Each one is checked below against the **current** file, not against the version 
 | 7 | "Background Figure 1 could be clearer by making the curve another color" | **Open** | Cosmetic; it is a TikZ drawing, so a colour change is a one-line edit. |
 | 8 | "sections 2.1.1 and 2.1.2 are a bit short but maybe it makes sense" | **No action** | He hedged it himself; they are sub-sub-sections. |
 | 9 | "Formatting: Maybe bold the equations / relationships" | **Open** | Cosmetic, and arguably against convention — display equations are already visually separated. Low value. |
-| 10 | "placement of the stress strain diagram doesn't fit in so well in the middle of a derivation" | **Open** | Real readability point: move the figure to after the derivation. |
+| 10 | "placement of the stress strain diagram doesn't fit in so well in the middle of a derivation" | **Addressed 2026-10-26** | The `sscurve` figure now sits **after** the Dahl derivation ends (line 267, following `\end{align}`), not inside it. Rebuilt and checked on the rendered page: the derivation at 2.3 now runs equation (4) → (5) → (6) → rearrangement without a figure interrupting it. |
 | 11 | "The visualization figure could be placed before or after the methodology, currently it is in the middle and a bit randomly placed" | **Open** | Same class as #10 — float placement. |
 | 12 | "more in-text citations and references to the literature" | **Partly** | 24 citation commands now. Whether that is "more" depends on what he had before; the bibliography file holds 18 entries (16 cited). |
 

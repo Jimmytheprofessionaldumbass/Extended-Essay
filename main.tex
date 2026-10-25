@@ -204,7 +204,7 @@ Since state space equations are more concerned with the change in state variable
 \end{align}
 
 \noindent
-now we must put the current force state back into this derivative function, because state space equations depend on previous states as they are history-dependent models, we rearrange eq (1) to isolate $e^{-\frac{\sigma_{0}|x|}{F_{c}}}$ like such:
+Now we must put the current force state back into this derivative function, because state space equations depend on previous states as they are history-dependent models. We rearrange eq (1) to isolate $e^{-\frac{\sigma_{0}|x|}{F_{c}}}$ like such:
 
 \begin{align}
     F&=F_{c}\left(1-e^{-\frac{ \sigma_{0}|x| }{ F_{c} }}\right)\mathrm{sgn}\left(\frac{\diff x}{\diff t}\right) \\
@@ -223,12 +223,7 @@ and putting it back in the differential equation $\frac{\diff F}{\diff x} = \sig
 
 The Dahl model's equation shares similar properties of an exponential function take of the stress-strain curve (depicted in figure \ref{fig:sscurve}), most notably, the point at which it shifts from an elastic spring to continual bristle movement.
 
-\begin{figure}[htbp]
-    \center
-    \includegraphics[width=0.7\textwidth]{sscurve}
-    \caption{An annotated stress-strain curve\cite{youtube:sscurve}}
-    \label{fig:sscurve}
-\end{figure}
+% \(stress-strain figure moved below, after the derivation — supervisor comment #10)
 % \begin{enumerate}
 %     \item Case 1: $F = 0$ starting movement (Currently no frictional force)
 %         \begin{align}
@@ -267,6 +262,13 @@ Now with $F=\sigma_{0}z$ and $sgn(v)v=|v|$ we arrive at the definitive Dahl's mo
                             &= \left(1-\frac{\sigma_{0}z}{F_{c}}\mathrm{sgn}\left(v\right)\right)v \\
                         \frac{\diff z}{\diff t} &= v-\frac{\sigma_{0}z}{F_{c}}|v|
 \end{align}\cite{p:rvstlg}
+
+\begin{figure}[htbp]
+    \center
+    \includegraphics[width=0.7\textwidth]{sscurve}
+    \caption{An annotated stress-strain curve\cite{youtube:sscurve}}
+    \label{fig:sscurve}
+\end{figure}
 
 
 % The labeled "elastic region" could be viewed as the predisplacement present in static friction before reaching the "plastic region" that is when it reaches coulomb friction.
