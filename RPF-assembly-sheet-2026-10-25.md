@@ -23,7 +23,7 @@ Sentence numbers are stable: they come from `python3 ~/.openclaw/workspace/tools
 | 4 | **NEW (yours):** name whose decision the design flaw was, then **your sentence 9's own admission** ("I should have looked a bit more into the experiment and adapted my experiment into it") | ~45 | 157 | ← evaluative. Currently buried inside the bearing-screw sentence |
 | 5 | **your sentence 16** — the sensor locking and nullifying the data; trim the technical restatement | 48 | 205 | the failure, stated plainly |
 | 6 | **your sentence 17** — the qualitative observation that survived | 31 | 236 | what outlived the broken rig |
-| 7 | **your sentence 18** — the new sensor, not yet used | 17 | 253 | must stay past/present; **do not imply results** |
+| 7 | **your sentence 18** — the new sensor, not yet used *(optional: the checker counts this as plan, not reflection — keep it only because it explains why the experiment was not run; dropping it buys 17 words)* | 17 | 253 | must stay past/present; **do not imply results** |
 | 8 | **NEW (yours):** how discovering the finger is a variable changed how you design an experiment | ~40 | 293 | ← evaluative |
 | 9 | **your sentences 11 + 13, compressed** — finger is not a constant material; the ethanol result did not reproduce | ~75 | 368 | the two specific examples |
 | 10 | **NEW (yours):** one thing you will do differently in the next piece of research, and why this project is the reason | ~90 | 458 | ← the transfer statement. Criterion E names it explicitly |
@@ -56,9 +56,11 @@ must contain a judgement, a change, or a lesson — not an event.
 python3 ~/.openclaw/workspace/tools/rpf-check.py <your new file>
 ```
 
-It reports the word count against 500, how many of your sentences evaluate, how many specific
-examples you have, and whether a transfer statement exists. It exits non-zero if any of those fail.
-Current draft: 649 words, 1 of 21 evaluative, no transfer — every one of those numbers has to move.
+It reports the word count against 500, how many of your sentences evaluate, how many are a plan
+rather than a reflection, how many specific examples you have, and whether a transfer statement
+exists. It exits non-zero if any of those fail.
+Current draft: 649 words, 1 of 21 evaluative, 6 plan sentences, no transfer — every one of those
+numbers has to move.
 
 ## Still only you can supply
 
