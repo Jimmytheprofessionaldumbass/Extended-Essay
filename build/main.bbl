@@ -70,6 +70,43 @@
       \verb 10.1007/s11356-026-37653-8
       \endverb
     \endentry
+    \entry{p:rvstlg}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f0f3bc9540d4770c9cd66454728924ca}{%
+           family={{Å}ström},
+           familyi={Å\bibinitperiod},
+           given={Karl\bibnamedelima Johan},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=54a8edacd83bab90debee31dc2ff7ba2}{%
+           family={Canudas-de-Wit},
+           familyi={C\bibinithyphendelim W\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{688e31ca8874acaf43d2a93eba8a08e4}
+      \strng{fullhash}{688e31ca8874acaf43d2a93eba8a08e4}
+      \strng{fullhashraw}{688e31ca8874acaf43d2a93eba8a08e4}
+      \strng{bibnamehash}{688e31ca8874acaf43d2a93eba8a08e4}
+      \strng{authorbibnamehash}{688e31ca8874acaf43d2a93eba8a08e4}
+      \strng{authornamehash}{688e31ca8874acaf43d2a93eba8a08e4}
+      \strng{authorfullhash}{688e31ca8874acaf43d2a93eba8a08e4}
+      \strng{authorfullhashraw}{688e31ca8874acaf43d2a93eba8a08e4}
+      \field{sortinit}{Å}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Control Systems Magazine}
+      \field{number}{6}
+      \field{title}{Revisiting the LuGre friction model}
+      \field{volume}{28}
+      \field{year}{2008}
+      \field{pages}{101\bibrangedash 114}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/MCS.2008.929425
+      \endverb
+      \keyw{Friction;Force measurement;Aerodynamics;Motion control;Motion analysis;Area measurement;Mechanical factors;Velocity measurement;Ball bearings;Physics}
+    \endentry
     \entry{p:ssf}{article}{}{}
       \name{author}{4}{}{%
         {{hash=41bc88db83abbb5aff98bfadbaa36641}{%
@@ -360,43 +397,6 @@
       \verb{doi}
       \verb 10.1109/TBME.2020.3004491
       \endverb
-    \endentry
-    \entry{p:rvstlg}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=b3d8f7d2670f41cc74f0a7a185b437e1}{%
-           family={Johanastrom},
-           familyi={J\bibinitperiod},
-           given={Karl},
-           giveni={K\bibinitperiod}}}%
-        {{hash=54a8edacd83bab90debee31dc2ff7ba2}{%
-           family={Canudas-de-Wit},
-           familyi={C\bibinithyphendelim W\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{cd4cd2852a878dddd42063350a190d8e}
-      \strng{fullhash}{cd4cd2852a878dddd42063350a190d8e}
-      \strng{fullhashraw}{cd4cd2852a878dddd42063350a190d8e}
-      \strng{bibnamehash}{cd4cd2852a878dddd42063350a190d8e}
-      \strng{authorbibnamehash}{cd4cd2852a878dddd42063350a190d8e}
-      \strng{authornamehash}{cd4cd2852a878dddd42063350a190d8e}
-      \strng{authorfullhash}{cd4cd2852a878dddd42063350a190d8e}
-      \strng{authorfullhashraw}{cd4cd2852a878dddd42063350a190d8e}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Control Systems Magazine}
-      \field{number}{6}
-      \field{title}{Revisiting the LuGre friction model}
-      \field{volume}{28}
-      \field{year}{2008}
-      \field{pages}{101\bibrangedash 114}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1109/MCS.2008.929425
-      \endverb
-      \keyw{Friction;Force measurement;Aerodynamics;Motion control;Motion analysis;Area measurement;Mechanical factors;Velocity measurement;Ball bearings;Physics}
     \endentry
     \entry{lian2021transition}{article}{}{}
       \name{author}{3}{}{%
